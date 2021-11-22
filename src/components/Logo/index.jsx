@@ -9,6 +9,8 @@ function Logo() {
             <a>
                 <Image
                     src={logo}
+                    width={160}
+                    height={50}
                     alt="Logo Alfa Alumínio"
                     placeholder="blur"
                 />
