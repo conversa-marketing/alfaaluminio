@@ -2,7 +2,7 @@ import { useEffect } from 'react'
 import { useRouter } from 'next/router'
 
 import * as gtag from '../lib/gtag'
-import Analytics from 'components/Analytics'
+import Analytics from '../components/Analytics'
 import '../../styles/globals.css'
 import Layout from '../components/Layout'
 
