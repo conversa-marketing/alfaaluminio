@@ -1,25 +1,20 @@
 import Script from 'next/script';
-import { GA_TRACKING_ID } from '../../lib/gtag'; // importar o gtag do arquivo gtag.js
+// import { GA_TRACKING_ID } from '../../lib/gtag'; importar o gtag do arquivo gtag.js
 
 const Analytics = () => (
     <>
         <Script
-            strategy="afterInteractive"
-            src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
+            strategy="lazoOnload"
+            src={`https://www.googletagmanager.com/gtag/js?id=G-J28NXFKZ29`}
         />
-        <Script
-            strategy="afterInteractive"
-            dangerouslySetInnerHTML={{
-                __html: `
+        <Script strategy="lazoOnload">
+            {`
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
-              gtag('config', '${GA_TRACKING_ID}', {
-                page_path: window.location.pathname,
-              });
-            `
-            }}
-        />
+              gtag('config', 'G-J28NXFKZ29');
+            `}
+        </Script>
     </>
 )
 
