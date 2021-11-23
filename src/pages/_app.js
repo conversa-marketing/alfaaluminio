@@ -16,10 +16,10 @@ function App({ Component, pageProps }) {
       </Head>
 
       <Script
-        strategy="lazoOnload"
+        strategy="lazyOnload"
         src={`https://www.googletagmanager.com/gtag/js?id=G-J28NXFKZ29`}
       />
-      <Script strategy="lazoOnload">
+      <Script strategy="lazyOnload">
         {`
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
