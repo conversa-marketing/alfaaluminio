@@ -1,8 +1,8 @@
 import '../../styles/globals.css'
+import Script from 'next/script';
 import Layout from '../components/Layout'
 
 import Head from 'next/head'
-import Analytics from '../components/Analytics'
 
 function App({ Component, pageProps }) {
 
@@ -14,8 +14,21 @@ function App({ Component, pageProps }) {
           rel="stylesheet"
         />
       </Head>
+
+      <Script
+        strategy="lazoOnload"
+        src={`https://www.googletagmanager.com/gtag/js?id=G-J28NXFKZ29`}
+      />
+      <Script strategy="lazoOnload">
+        {`
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+            
+              gtag('config', 'G-J28NXFKZ29');
+            `}
+      </Script>
       <Layout>
-        <Analytics />
         <Component {...pageProps} />
       </Layout>
     </>

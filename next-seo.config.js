@@ -2,7 +2,7 @@ const DefaultSEO = {
     openGraph: {
         type: 'website',
         locale: 'pt_BR',
-        url: 'https://alfaaluminio.com.br',
+        url: '',
         site_name: 'Alfa Alumínio'
     }
 }
