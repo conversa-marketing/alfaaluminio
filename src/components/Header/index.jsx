@@ -1,25 +1,36 @@
 import React from 'react'
+import { useRouter } from 'next/router'
 import * as S from './styled'
 import Logo from '../Logo'
-import Links from '../Links/content'
+import links from '../Links/content'
+import Link from 'next/link'
 
-function Header() {
+
+const Header = ({ setIsMenuOpen, isMenuOpen }) => {
+    const router = useRouter()
+    const menuLinkClick = () => {
+        setIsMenuOpen(!isMenuOpen)
+    }
+
+
     return (
         <S.HeaderWrapper>
-            <S.LogoWrapper>
-                <Logo />
-            </S.LogoWrapper>
-            <S.LinksNav>
-                <S.NavList>
-                    {Links.map((link, index) => {
-                        return (
+            <S.HeaderContent>
+                <S.LogoWrapper>
+                    <Logo />
+                </S.LogoWrapper>
+                <S.LinksNav>
+                    <S.NavList>
+                        {links.map((link, index) => (
                             <S.NavListItem key={index}>
-                                <S.LinksItem href={link.url} title={link.label}>{link.label}</S.LinksItem>
+                                <Link href={link.url}>
+                                    <a className={router.pathname === link.url ? 'active' : ''}>{link.label}</a>
+                                </Link>
                             </S.NavListItem>
-                        )
-                    })}
-                </S.NavList>
-            </S.LinksNav>
+                        ))}
+                    </S.NavList>
+                </S.LinksNav>
+            </S.HeaderContent>
         </S.HeaderWrapper>
     )
 }
