@@ -29,7 +29,7 @@ export default class MyDocument extends Document {
     }
 
     render() {
-        const GA_MEASUREMENT_ID = process.env.GA_MEASUREMENT_ID; // Paste your GTAG here
+        const GA_MEASUREMENT_ID = 'G-TV7Q7X7T59'; // Paste your GTAG here
         return (
             <Html lang="pt_BR">
                 <Head>
