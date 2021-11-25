@@ -3,9 +3,6 @@ import slide2 from '../../assets/img/slide2.png';
 import slide3 from '../../assets/img/slide3.png';
 
 
-
-
-
 const Slides = [
     {
         title: 'Perfis',
