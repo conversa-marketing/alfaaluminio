@@ -3,7 +3,7 @@ import { useRouter } from 'next/router'
 
 import * as gtag from '../lib/gtag'
 import Analytics from '../components/Analytics'
-import '../../styles/globals.css'
+import GlobalStyles from '../../styles/global'
 import Layout from '../components/Layout'
 
 
@@ -22,6 +22,7 @@ function App({ Component, pageProps }) {
 
   return (
     <>
+      <GlobalStyles />
       <Layout>
         <Component {...pageProps} />
       </Layout>

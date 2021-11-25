@@ -22,7 +22,9 @@ export const LogoWrapper = styled.div`
 `
 
 export const LinksNav = styled.nav`
-
+    display: flex;
+    align-items: center;
+    gap: 3em;
 `
 
 export const NavList = styled.ul`
@@ -33,7 +35,7 @@ export const NavList = styled.ul`
 export const NavListItem = styled.li`
 
     .active {
-        color: #f02d26;
+        color: var(--red-primary);
     }
 
     a {
@@ -42,8 +44,20 @@ export const NavListItem = styled.li`
         color: #888;
             
         &:hover {
-            color: #f02d26;
+            color: var(--red-primary);
         }
+    }
+`
+
+export const ContactBtn = styled.a`
+    padding: 13px 30px;
+    background-color: var(--red-primary);
+    color: var(--white);
+    border-radius: 7px;
+    transition: all 300ms ease-in-out;
+
+    &:hover {
+        background-color: var(--red-primary-hover);
     }
 `
 

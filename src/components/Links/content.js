@@ -13,11 +13,6 @@ const Links = [
         label: 'Produtos',
         url: '/produtos',
     },
-
-    {
-        label: 'Contato',
-        url: '/contato',
-    },
 ]
 
 export default Links;

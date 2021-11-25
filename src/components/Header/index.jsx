@@ -29,6 +29,11 @@ const Header = ({ setIsMenuOpen, isMenuOpen }) => {
                             </S.NavListItem>
                         ))}
                     </S.NavList>
+                    <Link href="/contato" passHref>
+                        <S.ContactBtn>
+                            Contato
+                        </S.ContactBtn>
+                    </Link>
                 </S.LinksNav>
             </S.HeaderContent>
         </S.HeaderWrapper>
