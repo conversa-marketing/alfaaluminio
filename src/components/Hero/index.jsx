@@ -22,7 +22,7 @@ function HeroSection() {
             <S.HeroImgWrapper>
                 <Image
                     src={imgSrc}
-                    placeholder={blur}
+                    placeholder="blur"
                 />
             </S.HeroImgWrapper>
         </S.HeroWrapper>

@@ -42,14 +42,14 @@ function HomeSlider() {
                 itemClass="carousel-item-padding-40-px"
             >
                 {Slides.map((slide, index) => (
-                    <>
-                        <Image key={index} src={slide.slideImg} />
+                    <div key={index}>
+                        <Image src={slide.slideImg} />
                         <Link href={slide.buttonUrl} passHref>
                             <a>
                                 {slide.title}
                             </a>
                         </Link>
-                    </>
+                    </div>
                 ))}
             </Carousel>
         </S.SliderWrapper>
