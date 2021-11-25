@@ -12,7 +12,7 @@ export default function Home() {
       </Head>
       <HeroSection />
       <HomeSlider />
-      <h1>Essa é a Home</h1>
+      <h1>Essa é a Home bla bla bla bla</h1>
     </div>
   )
 }
