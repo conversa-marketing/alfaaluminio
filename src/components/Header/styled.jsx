@@ -39,9 +39,10 @@ export const NavListItem = styled.li`
     }
 
     a {
-        font-family: 'DM Sans', sans-serif;
         font-weight: 400;
         color: #888;
+        font-size: .9em;
+        font-weight: 400;
             
         &:hover {
             color: var(--red-primary);
@@ -51,6 +52,8 @@ export const NavListItem = styled.li`
 
 export const ContactBtn = styled.a`
     padding: 13px 30px;
+    font-size: .9em;
+
     background-color: var(--red-primary);
     color: var(--white);
     border-radius: 7px;

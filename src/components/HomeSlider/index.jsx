@@ -31,25 +31,25 @@ function HomeSlider() {
     return (
         <S.SliderWrapper>
             <Carousel
-                showDots={true}
                 responsive={responsive}
-                infinite={true}
-                autoPlaySpeed={1000}
-                keyBoardControl={true}
-                containerClass="carousel-container"
+                infinite
+                autoPlay={true}
                 removeArrowOnDeviceType={["tablet", "mobile"]}
-                dotListClass="custom-dot-list-style"
-                itemClass="carousel-item-padding-40-px"
             >
                 {Slides.map((slide, index) => (
-                    <div key={index}>
-                        <Image src={slide.slideImg} />
-                        <Link href={slide.buttonUrl} passHref>
+                    <>
+                        <Image
+                            src={slide.slideImg}
+                            draggable={false}
+                            layout='responsive'
+                            alt={slide.title}
+                        />
+                        <Link key={index} href={slide.url}>
                             <a>
                                 {slide.title}
                             </a>
                         </Link>
-                    </div>
+                    </>
                 ))}
             </Carousel>
         </S.SliderWrapper>

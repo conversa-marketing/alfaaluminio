@@ -6,43 +6,43 @@ import slide3 from '../../assets/img/slide3.png';
 const Slides = [
     {
         title: 'Perfis',
-        buttonUrl: '/',
+        url: '/perfis',
         slideImg: slide1,
     },
 
     {
         title: 'Chapas lavradas de alumínio',
-        buttonUrl: '/',
+        url: '/chapas-lavradas',
         slideImg: slide2,
     },
 
     {
         title: 'Bobinas de alumínio',
-        buttonUrl: '/',
+        url: '/bobinas',
         slideImg: slide3,
     },
 
     {
         title: 'Telhas de alumínio',
-        buttonUrl: '/',
+        url: '/telhas',
         slideImg: slide1,
     },
 
     {
         title: 'Barras de alumínio',
-        buttonUrl: '/',
-        slideImg: slide1,
+        url: '/barras',
+        slideImg: slide2,
     },
 
     {
         title: 'Cantoneiras',
-        buttonUrl: '/',
-        slideImg: slide1,
+        url: '/catoneiras',
+        slideImg: slide3,
     },
 
     {
         title: 'Tubos',
-        buttonUrl: '/',
+        url: '/tubos',
         slideImg: slide1,
     },
 ]

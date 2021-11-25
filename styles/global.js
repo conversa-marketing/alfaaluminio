@@ -6,7 +6,11 @@ const GlobalStyles = createGlobalStyle`
   body {
     padding: 0;
     margin: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poller One', sans-serif;
   }
 
   ul {
@@ -16,7 +20,6 @@ const GlobalStyles = createGlobalStyle`
   a {
     color: inherit;
     text-decoration: none;
-    font-family: 'DM Sans', sans-serif;
   }
 
   * {
