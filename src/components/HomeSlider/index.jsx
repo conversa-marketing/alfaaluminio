@@ -37,19 +37,19 @@ function HomeSlider() {
                 removeArrowOnDeviceType={["tablet", "mobile"]}
             >
                 {Slides.map((slide, index) => (
-                    <>
+                    <div key={index}>
                         <Image
                             src={slide.slideImg}
                             draggable={false}
                             layout='responsive'
                             alt={slide.title}
                         />
-                        <Link key={index} href={slide.url}>
+                        <Link href={slide.url}>
                             <a>
                                 {slide.title}
                             </a>
                         </Link>
-                    </>
+                    </div>
                 ))}
             </Carousel>
         </S.SliderWrapper>

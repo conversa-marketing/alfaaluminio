@@ -34,6 +34,11 @@ const Header = ({ setIsMenuOpen, isMenuOpen }) => {
                             Contato
                         </S.ContactBtn>
                     </Link>
+                    <div>
+                        <Link href="tel:+551141565577" passHref>
+                            <S.ContactNumber>(11) 4156-5577</S.ContactNumber>
+                        </Link>
+                    </div>
                 </S.LinksNav>
             </S.HeaderContent>
         </S.HeaderWrapper>

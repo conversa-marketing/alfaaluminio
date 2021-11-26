@@ -4,21 +4,24 @@ export const HeaderWrapper = styled.header`
     display: flex;
     justify-content: center;
     align-items: center;
-    /* height: 70px; */
-    width: 100vw;
-    /* border: 1px solid #c7c7c7; */
-    box-shadow: 4px 4px 22px 0px rgba(29, 29, 29, 0.083);
+    background-image: linear-gradient( 180deg, #0000006b, #0000000d);
+    border-bottom: 1px solid #00000000;
+    z-index: 3;
+    position: relative;
 `
 
 export const HeaderContent = styled.div`
     display: flex;
-    padding: 15px 0;
+    min-height: 10vh;
     width: 100%;
-    max-width: 90vw;
+    justify-content: space-between;
+    max-width: 1200px;
 `
 
 export const LogoWrapper = styled.div`
     max-width: 160px;
+    display: flex;
+    align-items: center;
 `
 
 export const LinksNav = styled.nav`
@@ -40,9 +43,10 @@ export const NavListItem = styled.li`
 
     a {
         font-weight: 400;
-        color: #888;
+        color: var(--white);
         font-size: .9em;
         font-weight: 400;
+        transition: all 0.3s ease-in-out;
             
         &:hover {
             color: var(--red-primary);
@@ -51,13 +55,14 @@ export const NavListItem = styled.li`
 `
 
 export const ContactBtn = styled.a`
-    padding: 13px 30px;
+    padding: 12px 30px;
     font-size: .9em;
 
     background-color: var(--red-primary);
     color: var(--white);
     border-radius: 7px;
     transition: all 300ms ease-in-out;
+    box-shadow: inherit;
 
     &:hover {
         background-color: var(--red-primary-hover);
@@ -66,4 +71,20 @@ export const ContactBtn = styled.a`
 
 export const ContactInfo = styled.div`
 
+`
+
+export const ContactNumber = styled.a`
+    display: flex;
+    font-size: .9em;
+    font-weight: 600;
+    padding: 12px;
+    border-radius: 7px;
+    color: var(--white);
+
+    transition: all 300ms ease-in-out;
+
+    &:hover {
+        background-color: #ffffff1a;
+
+    }
 `
