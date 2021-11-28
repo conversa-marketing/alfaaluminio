@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import HeroSection from '../components/Hero'
-import HomeSlider from '../components/HomeSlider'
+import ProductSlider from '../components/ProductSlider'
 
 export default function Home() {
   return (
@@ -11,7 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <HeroSection />
-      <HomeSlider />
+      <ProductSlider />
       <h1>Essa é a Home bla bla bla bla</h1>
     </div>
   )

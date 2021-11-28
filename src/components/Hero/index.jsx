@@ -3,7 +3,6 @@ import * as S from './styled'
 import Image from 'next/image'
 import Link from 'next/link'
 import HeroImage from '../../assets/img/hero-uncompressed.jpg'
-// import styles from './Hero.module.css'
 
 
 function HeroSection() {
@@ -11,7 +10,6 @@ function HeroSection() {
         <S.HeroWrapper>
             <S.HeroBgWrapper>
                 <Image
-                    // className={styles.bgImage}
                     src={HeroImage}
                     layout="fill"
                     objectFit="cover"

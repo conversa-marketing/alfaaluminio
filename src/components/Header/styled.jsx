@@ -60,7 +60,7 @@ export const ContactBtn = styled.a`
 
     background-color: var(--red-primary);
     color: var(--white);
-    border-radius: 7px;
+    border-radius: 15px;
     transition: all 300ms ease-in-out;
     box-shadow: inherit;
 
