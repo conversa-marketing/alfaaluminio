@@ -54,8 +54,8 @@ export const SliderWrapper = styled.div`
     width: 500px;
     flex: 1;
 
-    div > ul {
-        gap: 30px;
+    div > ul > li {
+        /* margin: 0 10px; */
     }
 
 `
@@ -67,6 +67,7 @@ export const CarouselInner = styled.div`
 export const CarouselCard = styled.div`
     background-color: #f8f8f8;
     padding: 30px;
+    margin: 0 10px;
     border-radius: 35px;
     display: flex;
     align-items: center;

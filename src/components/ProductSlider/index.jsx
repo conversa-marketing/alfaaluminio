@@ -46,6 +46,7 @@ function ProductSlider() {
                 <S.SliderWrapper>
                     <Carousel
                         responsive={responsive}
+                        infinite
                         removeArrowOnDeviceType={["tablet", "mobile"]}
                     >
                         {Slides.map((slide, index) => (
