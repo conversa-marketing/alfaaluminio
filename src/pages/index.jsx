@@ -1,4 +1,6 @@
 import Head from 'next/head'
+import AboutAlfa from '../components/About'
+import Clients from '../components/ClientsSection'
 import HeroSection from '../components/Hero'
 import ProductSlider from '../components/ProductSlider'
 
@@ -12,7 +14,8 @@ export default function Home() {
       </Head>
       <HeroSection />
       <ProductSlider />
-      <h1>Essa é a Home bla bla bla bla</h1>
+      <Clients />
+      <AboutAlfa />
     </div>
   )
 }
