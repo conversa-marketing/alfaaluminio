@@ -24,21 +24,24 @@ export const ProductsCall = styled.div`
     p {
         color: var(--black);
         max-width: 500px;
+        font-weight: 500;
+        font-size: 1.2rem;
     }
 `
 
 export const ProductBtn = styled.a`
     margin-top: 3rem;
     display: inline-flex;
+    align-items: flex-start;
+    justify-content: flex-start;
     padding: 15px 30px;
-    border-radius: 15px;
+    border-radius: 5px;
     background-color: var(--blue-primary);
     color: var(--white);
-    box-shadow: 0px 0px 44px 10px #00447d5c;
     transition: all 300ms ease-in-out;
 
     &:hover {
-        box-shadow: 0px 0px 54px -10px #00457d28;
+        background-color: var(--blue-primary);
     }
 `
 
@@ -53,35 +56,38 @@ export const ProductsContainer = styled.div`
 export const SliderWrapper = styled.div`
     width: 500px;
     flex: 1;
-
-    div > ul > li {
-        /* margin: 0 10px; */
-    }
-
-`
-
-export const CarouselInner = styled.div`
-    width: 500px;
 `
 
 export const CarouselCard = styled.div`
     background-color: #f8f8f8;
-    padding: 30px;
     margin: 0 10px;
-    border-radius: 35px;
+    border-radius: 5px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     flex-direction: column;
     text-align: center;
+    height: 100%;
     min-height: 300px;
-    border: 2px solid #ebebeb;
+    overflow: hidden;
+    cursor: grab;
+
+    h3 {
+        color: var(--black);
+        font-size: 1.5rem;
+        text-align: center;
+    }
 `
 
-export const IconHeading = styled.div`
-    width: 60px;
-    height: 60px;
-    background-color: var(--red-primary);
-    border-radius: 50px;
+export const CarouselContent = styled.div`
+    padding: 30px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+`
+
+export const ImageHeading = styled.div`
+    width: 100%;
     overflow: hidden;
 `

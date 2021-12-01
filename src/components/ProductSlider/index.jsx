@@ -51,18 +51,20 @@ function ProductSlider() {
                     >
                         {Slides.map((slide, index) => (
                             <S.CarouselCard key={index}>
-                                <S.IconHeading>
+                                <S.ImageHeading>
                                     <Image
                                         src={slide.slideImg}
                                         draggable={false}
                                         layout='responsive'
                                         alt={slide.title}
                                     />
-                                </S.IconHeading>
-                                <h3>{slide.title}</h3>
-                                <Link href={slide.url} passHref>
-                                    <a>Saiba mais</a>
-                                </Link>
+                                </S.ImageHeading>
+                                <S.CarouselContent>
+                                    <h3>{slide.title}</h3>
+                                    <Link href={slide.url} passHref>
+                                        <S.ProductBtn>Saiba mais</S.ProductBtn>
+                                    </Link>
+                                </S.CarouselContent>
                             </S.CarouselCard>
                         ))}
                     </Carousel>

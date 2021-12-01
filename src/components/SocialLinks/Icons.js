@@ -1,4 +1,7 @@
 import { Whatsapp } from '@styled-icons/boxicons-logos/Whatsapp';
+import { Facebook } from '@styled-icons/boxicons-logos/Facebook';
+import { Instagram } from '@styled-icons/boxicons-logos/Instagram';
+import { Linkedin } from '@styled-icons/boxicons-logos/Linkedin';
 import { Map } from '@styled-icons/boxicons-regular/Map';
 import { SearchAlt as Search } from '@styled-icons/boxicons-regular/SearchAlt';
 import { UpArrowAlt as ArrowUp } from '@styled-icons/boxicons-regular/UpArrowAlt';
@@ -14,6 +17,9 @@ import { Area } from '@styled-icons/boxicons-regular/Area';
 
 const Icons = {
     Whatsapp,
+    Facebook,
+    Instagram,
+    Linkedin,
     Map,
     Search,
     ArrowUp,

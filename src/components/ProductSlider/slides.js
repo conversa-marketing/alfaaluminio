@@ -6,7 +6,7 @@ import slide3 from '../../assets/img/slide3.png';
 const Slides = [
     {
         title: 'Perfis',
-        url: '/perfis',
+        url: '/produtos/laminados/chapas-lavradas-xadrez',
         slideImg: slide1,
     },
 

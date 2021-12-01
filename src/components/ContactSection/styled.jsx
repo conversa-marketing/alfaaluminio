@@ -1,41 +1,41 @@
 import styled from "styled-components";
 
-export const HeroWrapper = styled.div`
+export const ContactWrapper = styled.div`
     position: relative;
-    margin-top: -10vh;
-    padding-top: 10vh;
+    padding: 10vh 0;
     display: flex;
     justify-content: center;
 `
 
-export const HeroCall = styled.div`
+export const ContactBgWrapper = styled.div`
+    z-index: -1;
+`
+
+export const ContactContent = styled.div`
     position: relative;
     z-index: 1;
     width: 100%;
     max-width: 1200px;
-    padding: 10vh 0 20vh 0;
 
-    h1 {
-        max-width:600px;
-        font-size: 3.3rem;
+    h2 {
+        font-size: 2.5rem;
         color: var(--white);
+        margin-bottom: 2rem;
+    }
 
-        span {
-            color: var(--red-primary);
-        }
+    h2 > span {
+        color: var(--red-primary);
     }
 
     p {
-        font-size: 1rem;
-        max-width:600px;
-
-        margin-top: 2rem;
         color: var(--white);
-        font-weight: 400;
+        max-width: 600px;
+        font-weight: 500;
+        font-size: 1.2rem;
     }
 `
 
-export const HeroBtn = styled.a`
+export const ContactBtn = styled.a`
     margin-top: 3rem;
     display: inline-flex;
     padding: 15px 30px;
@@ -47,8 +47,4 @@ export const HeroBtn = styled.a`
     &:hover {
         background-color: var(--red-primary);
     }
-`
-
-export const HeroBgWrapper = styled.div`
-    z-index: -1;
 `

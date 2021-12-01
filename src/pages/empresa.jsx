@@ -1,5 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
+import Empresa from '../components/PageComponents/Empresa'
 
 export default function empresa() {
     return (
@@ -7,7 +8,7 @@ export default function empresa() {
             <Head>
                 <title>Empresa</title>
             </Head>
-            <h1>A Empresa</h1>
+            <Empresa />
         </>
     )
 }

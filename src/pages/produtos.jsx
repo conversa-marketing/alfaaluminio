@@ -1,5 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
+import ProdutosPage from '../components/PageComponents/Produtos'
 
 export default function produtos() {
     return (
@@ -7,7 +8,7 @@ export default function produtos() {
             <Head>
                 <title>Produtos</title>
             </Head>
-            <h1>Produtos</h1>
+            <ProdutosPage />
         </>
     )
 }

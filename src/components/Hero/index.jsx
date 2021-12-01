@@ -22,11 +22,6 @@ function HeroSection() {
             </S.HeroBgWrapper>
             <S.HeroCall>
                 <h1>Especialistas em alumínio há mais de <span>38 anos</span></h1>
-                <p>Somos distribuidores oficiais da Companhia Brasileira
-                    do Alumínio do Grupo Votorantim, que possui um dos
-                    parques fabris mais modernos do mundo para a fabricação
-                    de metal primário e para a transformação.
-                </p>
                 <Link href="/" passHref>
                     <S.HeroBtn>Conheça nossos produtos</S.HeroBtn>
                 </Link>
