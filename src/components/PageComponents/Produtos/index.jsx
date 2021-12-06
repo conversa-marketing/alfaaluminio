@@ -1,10 +1,10 @@
 import React from 'react'
 import * as S from './styled'
 import Image from 'next/image'
-import laminados from './laminados'
-import perfis from './perfis'
+import laminados from '../Content/laminados'
+import perfis from '../Content/perfis'
 import Link from 'next/link'
-import transporte from './transporte'
+import transporte from '../Content/transporte'
 import ProdutosBanner from '../../../assets/img/produtos-banner.jpg'
 
 function ProdutosPage() {
