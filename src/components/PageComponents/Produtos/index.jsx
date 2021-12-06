@@ -11,7 +11,7 @@ function ProdutosPage() {
     return (
         <S.ProductsWrapper>
             <S.ProdutosBanner>
-                <Image src={ProdutosBanner} draggable="false" layout="fill" objectFit="cover" />
+                <Image src={ProdutosBanner} draggable="false" layout="fill" objectFit="cover" alt="" />
                 <h1>Nossos Produtos</h1>
             </S.ProdutosBanner>
             <S.ProductsContainer>

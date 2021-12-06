@@ -7,7 +7,7 @@ function ContactPage() {
     return (
         <S.ContactWrapper>
             <S.ContactBanner>
-                <Image src={ContatoBanner} layout="fill" objectFit="cover" />
+                <Image src={ContatoBanner} layout="fill" objectFit="cover" alt="" />
                 <h1>Entre em contato</h1>
                 <p>Precisa de um orçamento ou tem dúvidas sobre algum de nossos produtos? Preencha o formulário a baixo!</p>
             </S.ContactBanner>

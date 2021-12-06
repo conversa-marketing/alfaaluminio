@@ -13,6 +13,7 @@ function EmpresaPage() {
                     layout="fill"
                     objectFit="cover"
                     draggable={false}
+                    alt=""
                 />
                 <h1>Sobre a Alfa Alumínio</h1>
             </S.EmpresaBanner>
