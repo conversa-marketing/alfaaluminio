@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import * as S from '../../styled'
 import Image from 'next/image'
 import imgBarra from '../../../../assets/img/perfil-t-igual.jpg'
@@ -20,7 +20,7 @@ function PTI() {
                     />
                 </S.ProductImageWrapper>
                 <div>
-                    <h1>PErfil "T" Abas Iguais</h1>
+                    <h1>Perfil `"T"` Abas Iguais</h1>
                     <p>O vergalhão sextavado de alumínio é uma peça amplamente aplicada na estruturação dos mais variados segmentos, sendo também eficiente na utilização da manutenção de máquinas e equipamentos industriais.</p>
                     <Link href="/" passHref>
                         <S.DescriptionBtn>Saiba mais</S.DescriptionBtn>
@@ -31,14 +31,14 @@ function PTI() {
                 <S.TableCustom>
                     <thead>
                         <tr>
-                            <td rowSpan="2">PERFIL</td>
-                            <td>Dimensões (mm)</td>
-                            <td>Coluna1</td>
-                            <td rowSpan="2">PESO (kg/m)</td>
+                            <th rowSpan="2">PERFIL</th>
+                            <th>Dimensões (mm)</th>
+                            <th>Coluna1</th>
+                            <th rowSpan="2">PESO (kg/m)</th>
                         </tr>
                         <tr>
-                            <td>A</td>
-                            <td>S</td>
+                            <th>A</th>
+                            <th>S</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -87,7 +87,7 @@ function PTI() {
                     </tbody>
                 </S.TableCustom>
             </S.TableWrapper>
-        </S.MainWrapper >
+        </S.MainWrapper>
     )
 }
 
