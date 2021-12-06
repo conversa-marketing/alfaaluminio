@@ -20,7 +20,7 @@ function PTI() {
                     />
                 </S.ProductImageWrapper>
                 <div>
-                    <h1>Perfil `"T"` Abas Iguais</h1>
+                    <h1>Perfil T Abas Iguais</h1>
                     <p>O vergalhão sextavado de alumínio é uma peça amplamente aplicada na estruturação dos mais variados segmentos, sendo também eficiente na utilização da manutenção de máquinas e equipamentos industriais.</p>
                     <Link href="/" passHref>
                         <S.DescriptionBtn>Saiba mais</S.DescriptionBtn>
