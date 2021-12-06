@@ -89,5 +89,6 @@ export const CarouselContent = styled.div`
 
 export const ImageHeading = styled.div`
     width: 100%;
+    height: 190px;
     overflow: hidden;
 `

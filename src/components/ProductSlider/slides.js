@@ -1,49 +1,53 @@
-import slide1 from '../../assets/img/slide1.png';
-import slide2 from '../../assets/img/slide2.png';
-import slide3 from '../../assets/img/slide3.png';
+import perfis from '../../assets/img/perfil-t-igual.jpg';
+import lavrada from '../../assets/img/chapa-xadrez.jpg';
+import bobina from '../../assets/img/bobina-aluminio.jpg';
+import telha from '../../assets/img/telha-trapezoide.jpg';
+import barra from '../../assets/img/barra-sextavada.jpg';
+import cantoneira from '../../assets/img/cantoneira-igual.jpg';
+import tubos from '../../assets/img/tubo-quadrado.jpg';
 
 
 const Slides = [
     {
         title: 'Perfis',
-        url: '/produtos/laminados/chapas-lavradas-xadrez',
-        slideImg: slide1,
+        url: '/produtos',
+        slideImg: perfis,
     },
 
     {
         title: 'Chapas lavradas de alumínio',
-        url: '/chapas-lavradas',
-        slideImg: slide2,
+        url: '/produtos',
+        slideImg: lavrada,
     },
 
     {
         title: 'Bobinas de alumínio',
-        url: '/bobinas',
-        slideImg: slide3,
+        url: '/produtos',
+        slideImg: bobina,
     },
 
     {
         title: 'Telhas de alumínio',
-        url: '/telhas',
-        slideImg: slide1,
+        url: '/produtos',
+        slideImg: telha,
     },
 
     {
         title: 'Barras de alumínio',
-        url: '/barras',
-        slideImg: slide2,
+        url: '/produtos',
+        slideImg: barra,
     },
 
     {
         title: 'Cantoneiras',
-        url: '/catoneiras',
-        slideImg: slide3,
+        url: '/produtos',
+        slideImg: cantoneira,
     },
 
     {
         title: 'Tubos',
-        url: '/tubos',
-        slideImg: slide1,
+        url: '/produtos',
+        slideImg: tubos,
     },
 ]
 

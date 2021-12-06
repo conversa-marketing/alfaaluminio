@@ -15,7 +15,8 @@ function ProdutosPage() {
                 <h1>Nossos Produtos</h1>
             </S.ProdutosBanner>
             <S.ProductsContainer>
-                <h1>Laminados de Alumínio</h1>
+                <h2>Laminados de Alumínio</h2>
+                <p>Nossas telhas e laminados (chapas, bobinas e lâminas) são fabricados com alumínio durável e com a qualidade que o seu projeto necessita. Confira a seguir os produtos disponíveis em nosso estoque</p>
                 <S.CategoryWrapper>
                     {laminados.map((laminado, index) => (
                         <Link key={index} href={laminado.url} passHref>
@@ -31,7 +32,8 @@ function ProdutosPage() {
                         </Link>
                     ))}
                 </S.CategoryWrapper>
-                <h1>Perfis</h1>
+                <h2>Perfis</h2>
+                <p>Realizamos todos os processos industriais com o cuidado necessário para entregar extrudados de qualidade única para diferentes formas e aplicações. Confira a seguir os produtos disponíveis em nosso estoque</p>
                 <S.CategoryWrapper>
                     {perfis.map((perfis, index) => (
                         <Link key={index} href={perfis.url} passHref>
@@ -47,7 +49,8 @@ function ProdutosPage() {
                         </Link>
                     ))}
                 </S.CategoryWrapper>
-                <h1>Perfis de Transporte</h1>
+                <h2>Perfis de Transporte</h2>
+                <p>Soluções em alumínio para todos os tipos de veículos. Confira a seguir os produtos disponíveis em nosso estoque</p>
                 <S.CategoryWrapper>
                     {transporte.map((transporte, index) => (
                         <Link key={index} href={transporte.url} passHref>

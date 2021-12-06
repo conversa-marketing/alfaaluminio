@@ -406,12 +406,6 @@ function BRA() {
                             <td>6,556</td>
                         </tr>
                         <tr>
-                            <td>R-284</td>
-                            <td>70,40mm</td>
-                            <td>25,40mm</td>
-                            <td>4,834</td>
-                        </tr>
-                        <tr>
                             <td>R-087</td>
                             <td>3 (76,20mm)</td>
                             <td>1/8 (3,17mm)</td>

@@ -1,8 +1,8 @@
 import React from 'react'
-import Carousel from 'react-multi-carousel';
-import 'react-multi-carousel/lib/styles.css';
+import Carousel from 'react-multi-carousel'
+import 'react-multi-carousel/lib/styles.css'
 import Link from 'next/link'
-import Image from 'next/image';
+import Image from 'next/image'
 import Slides from './slides'
 import * as S from './styled'
 
@@ -12,10 +12,12 @@ const responsive = {
     superLargeDesktop: {
         breakpoint: { max: 4000, min: 1024 },
         items: 2,
+        partialVisibilityGutter: 40,
     },
     desktop: {
         breakpoint: { max: 1024, min: 768 },
         items: 1,
+        partialVisibilityGutter: 20,
     },
     tablet: {
         breakpoint: { max: 768, min: 640 },
@@ -46,7 +48,7 @@ function ProductSlider() {
                 <S.SliderWrapper>
                     <Carousel
                         responsive={responsive}
-                        infinite
+                        partialVisbile={true}
                         removeArrowOnDeviceType={["tablet", "mobile"]}
                     >
                         {Slides.map((slide, index) => (

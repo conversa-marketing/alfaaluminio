@@ -32,11 +32,25 @@ export const ProductsContainer = styled.div`
     width: 100%;
     max-width: 1200px;
 
-    h1 {
+    h2 {
         font-size: 2.5rem;
         color: var(--blue-primary);
+        margin-bottom: 1rem;
+        margin-top: 4rem;
+    }
+
+    h2:not(:first-child)::before {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 1px;
+        background-color: #e3e3e3;
+        margin-bottom: 3rem;
+    }
+
+    p {
         margin-bottom: 2rem;
-        margin-top: 2rem;
+        font-weight: 500;
     }
 `
 

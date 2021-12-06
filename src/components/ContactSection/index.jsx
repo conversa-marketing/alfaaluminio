@@ -20,10 +20,8 @@ function ContactSection() {
                 />
             </S.ContactBgWrapper>
             <S.ContactContent>
-                <h2>Entre em contato e <span>peça um orçamento</span></h2>
-                <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi soluta distinctio illum rem molestias tempora fugiat tenetur dignissimos, doloremque consequuntur.
-                </p>
+                <h2>Entre em contato <span>e faça o seu orçamento!</span></h2>
+                <p>Nos conte o que você precisa para a realização do seu projeto e vamos conversar sobre negócios.</p>
                 <Link href="/contato" passHref>
                     <S.ContactBtn>Quero um orçamento</S.ContactBtn>
                 </Link>
