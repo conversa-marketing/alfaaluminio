@@ -7,6 +7,34 @@ export const ContactWrapper = styled.section`
     flex-direction: column;
 `
 
+export const ContactBanner = styled.div`
+    width: 100%;
+    height: 500px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    span {
+        z-index: -1;
+    }
+
+    h1 {
+        color: var(--white);
+        font-size: 2.5rem;
+        text-align: center;
+        margin-bottom: 1rem;
+        z-index: 1;
+    }
+
+    p {
+        text-align: center;
+        z-index: 1;
+        color: var(--white);
+    }
+`
+
 export const ContactContainer = styled.div`
     width: 100%;
     max-width: 1200px;
@@ -14,22 +42,22 @@ export const ContactContainer = styled.div`
     flex-direction: column;
 `
 
+export const IframeWrapper = styled.div`
+    width: 100%;
+
+    iframe {
+        height: 400px;
+        width: 100%;
+        border: none;
+        margin: 0;
+    }
+`
+
 export const ContactHeading = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    h1 {
-        color: var(--black);
-        font-size: 2.5rem;
-        text-align: center;
-        margin-bottom: 1rem;
-    }
-
-    p {
-        text-align: center;
-    }
 `
 
 export const FormInfo = styled.div`

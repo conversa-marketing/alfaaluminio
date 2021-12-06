@@ -1,5 +1,5 @@
 import React from 'react';
-import * as S from './styled'
+import * as S from '../../styled'
 import Image from 'next/image'
 import ImgChapa from '../../../../assets/img/chapa-xadrez.jpg'
 import Link from 'next/link'
@@ -24,7 +24,7 @@ function CLX() {
                     <p>Antiderrapante, a chapa xadrez é um material juito utilizado em locais que exijam segurança, como escadas, rampas, bases para máquinas, pisos de ônibus e na indústria de construção (decorativo). Além de ser muito leve e muito resistente a impactos e corrosão.</p>
                     <p>Também fornecidas em larguras e espessuras conforme sua necessidade, com quantidade mínima exigida pelo fabricante.</p>
                     <Link href="/" passHref>
-                        <S.DescriptionBtn>download</S.DescriptionBtn>
+                        <S.DescriptionBtn>Saiba mais</S.DescriptionBtn>
                     </Link>
                 </div>
             </S.ProductHeader>

@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const HeroWrapper = styled.div`
     position: relative;
-    margin-top: -10vh;
     padding-top: 10vh;
     display: flex;
     justify-content: center;

@@ -30,6 +30,7 @@ export const ProductHeader = styled.div`
 
 export const ProductImageWrapper = styled.div`
     width: 100%;
+    min-height: 350px;
     border-radius: 10px;
     overflow: hidden;
     position: relative;
@@ -64,6 +65,7 @@ export const TableCustom = styled.table`
         background-color: var(--blue-primary);
         color: var(--white);
         font-size: .9rem;
+        border: 1px solid var(--blue-primary);
     }
 
     td, th {
@@ -71,11 +73,15 @@ export const TableCustom = styled.table`
         text-align: center;
     }
 
-    tr:nth-child(even) {
-        background-color: #c0d6e9
-    }
-    
     tbody {
-        border-right: 1p
+        background-color: #00447d0f;
+    }
+
+    tbody td {
+        border: 1px solid #00447d1c;
+    }
+
+    tbody > tr:nth-child(even) {
+        background-color: #c0d6e9
     }
 `
