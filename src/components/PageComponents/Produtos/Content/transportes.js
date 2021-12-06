@@ -1,18 +1,18 @@
-import MataJunta from '../../../assets/img/mata-junta.jpg'
-import PisoFurgao from '../../../assets/img/piso-furgao.jpg'
-import PisoFurgaoLeve1 from '../../../assets/img/piso-furgao-leve-1.jpg'
-import PisoFurgaoLeve2 from '../../../assets/img/piso-furgao-leve-2.jpg'
-import PisoCentralFF from '../../../assets/img/piso-central-furgao-frigorifico.jpg'
-import LongarinaInferior from '../../../assets/img/longarina-inferior.jpg'
-import PerfilGancho from '../../../assets/img/perfil-gancho.jpg'
-import AcabamentoLateral2 from '../../../assets/img/acabamento-lateral-opcoes.jpg'
-import AcabamentoCurto from '../../../assets/img/acabamento-curto.jpg'
-import AcabamentoLargo from '../../../assets/img/acabamento-largo.jpg'
-import ProtetorLateral from '../../../assets/img/perfil-protetor-lateral.jpg'
-import ArremateDianteiro from '../../../assets/img/perfil-arremate-dianteiro.jpg'
-import ArremateTraseiro from '../../../assets/img/perfil-arremate-traseiro.jpg'
+import MataJunta from '../../../../assets/img/mata-junta.jpg';
+import PisoFurgao from '../../../../assets/img/piso-furgao.jpg';
+import PisoFurgaoLeve1 from '../../../../assets/img/piso-furgao-leve-1.jpg';
+import PisoFurgaoLeve2 from '../../../../assets/img/piso-furgao-leve-2.jpg';
+import PisoCentralFF from '../../../../assets/img/piso-central-furgao-frigorifico.jpg';
+import LongarinaInferior from '../../../../assets/img/longarina-inferior.jpg';
+import PerfilGancho from '../../../../assets/img/perfil-gancho.jpg';
+import AcabamentoLateral2 from '../../../../assets/img/acabamento-lateral-opcoes.jpg';
+import AcabamentoCurto from '../../../../assets/img/acabamento-curto.jpg';
+import AcabamentoLargo from '../../../../assets/img/acabamento-largo.jpg';
+import ProtetorLateral from '../../../../assets/img/perfil-protetor-lateral.jpg';
+import ArremateDianteiro from '../../../../assets/img/perfil-arremate-dianteiro.jpg';
+import ArremateTraseiro from '../../../../assets/img/perfil-arremate-traseiro.jpg';
 
-const transporte = [
+const transportes = [
     {
         title: 'Mata Junta e Acabamento Porta Lateral',
         image: MataJunta,
@@ -105,4 +105,4 @@ const transporte = [
     },
 ]
 
-export default transporte;
+export default transportes;
