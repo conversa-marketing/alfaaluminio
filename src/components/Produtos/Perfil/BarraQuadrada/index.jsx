@@ -21,7 +21,7 @@ function BQA() {
                 </S.ProductImageWrapper>
                 <div>
                     <h1>Barras Quadradas de Alumínio</h1>
-                    <p>A barra retangular de alumínio é uma solução muito versátil e que está presente em diversos processos industriais, podendo ser aplicada com segurança em formas diferentes.</p>
+                    <p>A barra quadrada de alumínio é uma solução muito versátil e que está presente em diversos processos industriais, podendo ser aplicada com segurança em formas diferentes.</p>
                     <p>Também fornecidas em larguras e espessuras conforme sua necessidade,
                         com quantidade mínima exigida pelo fabricante.</p>
                     <Link href="/contato" passHref>

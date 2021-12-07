@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import media from "styled-media-query";
 
 export const AboutWrapper = styled.div`
     display: flex;
@@ -13,10 +14,18 @@ export const AboutContainer = styled.div`
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 50px;
+
+    ${media.lessThan("medium")`
+        grid-template-columns: 1fr;
+    `}
 `
 
 export const EmpresaImage = styled.div`
     position: relative;
+    
+    ${media.lessThan("medium")`
+        min-height: 300px;
+    `}
 `
 
 export const AboutContent = styled.div`
@@ -25,6 +34,15 @@ export const AboutContent = styled.div`
     align-items: start;
     width: 100%;
     max-width: 1200px;
+
+    ${media.lessThan("medium")`
+        align-items: center;
+        text-align: center;
+    `}
+
+    ${media.lessThan("small")`
+        padding: 0 20px;
+    `}
 
     h2 {
         font-size: 2.5rem;

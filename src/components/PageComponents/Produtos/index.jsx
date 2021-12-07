@@ -26,7 +26,6 @@ export default function ProdutosPage() {
                                 </S.CategoryImageWrapper>
                                 <S.CategoryContent>
                                     <h3>{laminado.title}</h3>
-                                    <p>{laminado.text}</p>
                                 </S.CategoryContent>
                             </S.CategoryItem>
                         </Link>
@@ -43,7 +42,6 @@ export default function ProdutosPage() {
                                 </S.CategoryImageWrapper>
                                 <S.CategoryContent>
                                     <h3>{perfis.title}</h3>
-                                    <p>{perfis.text}</p>
                                 </S.CategoryContent>
                             </S.CategoryItem>
                         </Link>
@@ -66,7 +64,7 @@ export default function ProdutosPage() {
                     ))}
                 </S.CategoryWrapper>
             </S.ProductsContainer>
-        </S.ProductsWrapper >
+        </S.ProductsWrapper>
     )
 }
 

@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import media from "styled-media-query";
 
 export const FooterWrapper = styled.footer`
     background-color: var(--blue-primary);
@@ -17,6 +18,14 @@ export const FooterContainer = styled.div`
                          "Copyright Copyright Copyright";
     row-gap: 30px;
     align-items: flex-start;
+
+    ${media.lessThan("large")`
+        display: flex;
+        flex-direction: column;
+        max-width: 900px;
+        justify-content: center;
+        align-items: center;
+    `}
 `
 
 export const FooterLogo = styled.div`
@@ -31,6 +40,11 @@ export const FooterLinks = styled.nav`
         display: flex;
         justify-content: center;
         gap: 30px;
+
+        ${media.lessThan("small")`
+            flex-direction: column;
+            text-align: center;
+        `}
     }
 
     ul > li {
@@ -46,11 +60,19 @@ export const FooterLinks = styled.nav`
 export const FooterContact = styled.div`
     grid-area: Contato;
     justify-self: end;
+
+    ${media.lessThan("large")`
+        justify-self: center;
+    `}
     
     ul {
         display: flex;
         gap: 30px;
         justify-content: end;
+
+        ${media.lessThan("large")`
+            justify-content: center;
+        `}
     }
 
     ul > li > a {
@@ -75,6 +97,10 @@ export const FooterContact = styled.div`
         text-align: end;
         margin-top: 1rem;
         max-width: 300px;
+
+        ${media.lessThan("large")`
+            text-align: center;
+        `}
     }
 `
 

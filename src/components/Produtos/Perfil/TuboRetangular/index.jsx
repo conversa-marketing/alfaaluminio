@@ -20,8 +20,7 @@ function BTRE() {
                     />
                 </S.ProductImageWrapper>
                 <div>
-                    <h1>Tubo Redondo Retangular de Alumínio</h1>
-                    <p></p>
+                    <h1>Tubo Retangular de Alumínio</h1>
                     <Link href="/contato" passHref>
                         <S.DescriptionBtn>Saiba mais</S.DescriptionBtn>
                     </Link>

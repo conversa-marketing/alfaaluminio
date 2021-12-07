@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import media from "styled-media-query";
 
 export const ContactWrapper = styled.div`
     position: relative;
@@ -16,6 +17,19 @@ export const ContactContent = styled.div`
     z-index: 1;
     width: 100%;
     max-width: 1200px;
+
+    ${media.lessThan("large")`
+        max-width: 900px;
+        padding: 20px;
+    `}
+
+    ${media.lessThan("medium")`
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    `}
 
     h2 {
         font-size: 2.5rem;

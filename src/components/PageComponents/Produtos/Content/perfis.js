@@ -16,28 +16,24 @@ const perfis = [
     {
         title: 'Barra Retangular de Alumínio',
         image: BarraRetangular,
-        text: 'A barra retangular de alumínio é uma solução muito versátil e que está presente em diversos processos industriais, podendo ser aplicada com segurança em formas diferentes.',
         url: '/produtos/perfil/barra-retangular-de-aluminio'
     },
 
     {
         title: 'Barra Quadrada de Alumínio',
         image: BarraQuadrada,
-        text: 'A barra quadrada de alumínio é uma solução muito versátil e que está presente em diversos processos industriais, podendo ser aplicada com segurança em formas diferentes.',
         url: '/produtos/perfil/barra-quadrada-de-aluminio'
     },
 
     {
         title: 'Barra Sextavada de Alumínio',
         image: BarraSextavada,
-        text: 'É uma peça amplamente aplicada na estruturação dos mais variados segmentos, sendo também eficiente na utilização da manutenção de máquinas e equipamentos industriais.',
         url: '/produtos/perfil/barra-sextavada-de-aluminio'
     },
 
     {
         title: 'Barra Redonda de Alumínio',
         image: BarraRedonda,
-        text: 'Sua utilização engloba diversas situações na indústria, como eixos, ganchos, pinos, torres de resfriamento, hastes e outras aplicações.',
         url: '/produtos/perfil/barra-redonda-de-aluminio'
     },
 

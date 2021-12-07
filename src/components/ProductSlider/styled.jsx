@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import media from "styled-media-query";
 
 export const ProductsWrapper = styled.div`
     display: flex;
@@ -9,6 +10,19 @@ export const ProductsWrapper = styled.div`
 
 export const ProductsCall = styled.div`
     width: 500px;
+
+    ${media.lessThan("large")`
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    `}
+
+    ${media.lessThan("small")`
+        padding: 0 20px;
+        box-sizing: border-box;
+    `}
     
     h2 {
         color: var(--black);
@@ -51,11 +65,20 @@ export const ProductsContainer = styled.div`
     padding: 10vh 0;
     display: flex;
     gap: 50px;
+
+    ${media.lessThan("large")`
+        flex-direction: column;
+        max-width: 900px;
+    `}
 `
 
 export const SliderWrapper = styled.div`
     width: 500px;
     flex: 1;
+
+    ${media.lessThan("large")`
+        width: 100%;
+    `}
 `
 
 export const CarouselCard = styled.div`

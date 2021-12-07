@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import media from "styled-media-query";
 
 export const ProductsWrapper = styled.section`
     display: flex;

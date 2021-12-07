@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import media from "styled-media-query";
 
 export const HeaderWrapper = styled.header`
     display: flex;
@@ -7,6 +8,10 @@ export const HeaderWrapper = styled.header`
     z-index: 3;
     position: relative;
     background-color: var(--white);
+
+    ${media.lessThan("large")`
+        display: none;
+    `}
 `
 
 export const HeaderContent = styled.div`

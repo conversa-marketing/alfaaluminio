@@ -21,7 +21,6 @@ function BTR() {
                 </S.ProductImageWrapper>
                 <div>
                     <h1>Tubo Redondo de Alumínio</h1>
-                    <p></p>
                     <Link href="/contato" passHref>
                         <S.DescriptionBtn>Saiba mais</S.DescriptionBtn>
                     </Link>
