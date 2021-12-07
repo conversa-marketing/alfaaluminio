@@ -1,5 +1,6 @@
 import { useEffect } from 'react'
 import { useRouter } from 'next/router'
+import Head from 'next/head'
 
 import * as gtag from '../lib/gtag'
 import Analytics from '../components/Analytics'
@@ -22,6 +23,12 @@ function App({ Component, pageProps }) {
 
   return (
     <>
+      <Head>
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="theme-color" content="#00447d" />
+        <link rel="apple-touch-icon" href="/alfa-96x96.png" />
+        <meta name="apple-mobile-web-app-status-bar" content="#00447d" />
+      </Head>
       <GlobalStyles />
       <Layout>
         <Component {...pageProps} />

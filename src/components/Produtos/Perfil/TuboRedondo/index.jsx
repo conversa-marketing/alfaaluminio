@@ -16,6 +16,7 @@ function BTR() {
                         alt="Barra Sextavada de Alumínio"
                         quality={100}
                         placeholder="blur"
+                        objectFit="cover"
                         layout="fill"
                     />
                 </S.ProductImageWrapper>

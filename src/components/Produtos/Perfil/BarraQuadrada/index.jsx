@@ -17,6 +17,7 @@ function BQA() {
                         quality={100}
                         placeholder="blur"
                         layout="fill"
+                        objectFit="cover"
                     />
                 </S.ProductImageWrapper>
                 <div>
