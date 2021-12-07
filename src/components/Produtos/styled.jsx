@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import media from "styled-media-query"
 
 export const MainWrapper = styled.main`
     display: flex;
@@ -14,6 +15,15 @@ export const ProductHeader = styled.div`
     grid-gap: 50px;
     width: 100%;
     max-width: 1200px;
+
+    ${media.lessThan("large")`
+        grid-template-columns: 1fr;
+        max-width: 700px;
+    `}
+
+    ${media.lessThan("medium")`
+        padding: 0 20px;
+    `}
 
     h1 {
         font-size: 2.5rem;
@@ -36,7 +46,6 @@ export const ProductImageWrapper = styled.div`
     position: relative;
 `
 
-export const ProductDescription = styled.div``
 
 export const DescriptionBtn = styled.a`
     display: inline-flex;
@@ -55,11 +64,18 @@ export const TableWrapper = styled.div`
     width: 100%;
     max-width: 1200px;
     padding-top: 10vh;
+    overflow: hidden;
+    overflow-x: auto;
+
+    ${media.lessThan("large")`
+        padding: 5vh 20px;
+    `}
 `
 
 export const TableCustom = styled.table`
     border-collapse: collapse;
     width: 100%;
+    min-width: 900px;
 
     thead {
         background-color: var(--blue-primary);

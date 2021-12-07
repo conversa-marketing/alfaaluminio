@@ -46,6 +46,11 @@ export const ContactContainer = styled.div`
     max-width: 1200px;
     display: flex;
     flex-direction: column;
+
+    ${media.lessThan("medium")`
+        max-width: 900px;
+        padding: 20px;
+    `}
 `
 
 export const IframeWrapper = styled.div`
@@ -60,10 +65,34 @@ export const IframeWrapper = styled.div`
 `
 
 export const ContactHeading = styled.div`
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    margin: 2rem 0;
+
+    ${media.lessThan("medium")`
+        grid-template-columns: 1fr;
+    `}
+`
+
+export const ContactInfo = styled.div`
+    background-color: #f7f7f7;
+    padding: 2rem;
+    border-radius: 5px;
+
+    ${media.lessThan("small")`
+        padding: 1rem;
+    `}
+
+    h3 {
+        font-size: 1.5rem;
+        color: var(--blue-primary);
+        margin-bottom: 1rem;
+    }
+
+    p {
+        font-weight: 500;
+    }
 `
 
 export const FormInfo = styled.div`
@@ -112,4 +141,78 @@ export const FormInfo = styled.div`
     }
 `
 
-export const aName = styled.div``
+export const FiliaisHeading = styled.div`
+    margin-bottom: 2rem;
+
+    h3 {
+        font-size: 2rem;
+        color: var(--blue-primary);
+        text-align: center;
+    }
+`
+
+export const FiliaisWrapper = styled.div`
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 4rem;
+    grid-gap: 30px;
+
+    ${media.lessThan("medium")`
+        grid-template-columns: 1fr 1fr;
+    `}
+    
+    ${media.lessThan("small")`
+        grid-template-columns: 1fr;
+        text-align: center;
+    `}
+`
+
+
+export const FiliaisItem = styled.div`
+
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: flex-start;
+
+    ${media.lessThan("small")`
+        align-items: center;
+    `}
+
+
+    h3 {
+        color: var(--red-primary);
+        margin-bottom: 1rem;
+    }
+
+    p {
+        font-weight: 500;
+        margin-bottom: 1rem;
+        flex: 1;
+    }
+
+    a {
+        background-color: #f7f7f7;
+        padding: 10px;
+        display: flex;
+        font-size: .8rem;
+        align-self: start;
+        border-radius: 5px;
+        font-weight: 500;
+        border: 1px solid var(--blue-primary);
+        transition: all .3s ease;
+
+        span {
+            margin-right: 10px;
+        }
+
+        &:hover {
+            background-color: var(--blue-primary);
+            color: var(--white);
+        }
+
+        ${media.lessThan("small")`
+            align-self: center;
+        `}
+    }
+`
