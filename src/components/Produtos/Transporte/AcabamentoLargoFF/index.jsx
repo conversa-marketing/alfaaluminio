@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 import * as S from '../../styled'
 import Image from 'next/image'
-import imgBarra from '../../../../assets/img/barra-quadrada.jpeg'
+import AcabamentoLargo from '../../../../assets/img/acabamento-largo.jpg'
 
 
 function ALFF() {
@@ -11,7 +11,7 @@ function ALFF() {
             <S.ProductHeader>
                 <S.ProductImageWrapper>
                     <Image
-                        src={imgBarra}
+                        src={AcabamentoLargo}
                         alt="Barras Quadradas de Alumínio"
                         quality={100}
                         placeholder="blur"
@@ -23,7 +23,7 @@ function ALFF() {
                 </div>
             </S.ProductHeader>
             <div>
-                componente de contato
+
             </div>
         </S.MainWrapper >
     )

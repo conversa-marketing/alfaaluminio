@@ -20,10 +20,10 @@ function CLX() {
                     />
                 </S.ProductImageWrapper>
                 <div>
-                    <h1>Chapa Lavradas Xadrez</h1>
-                    <p>Antiderrapante, a chapa xadrez é um material juito utilizado em locais que exijam segurança, como escadas, rampas, bases para máquinas, pisos de ônibus e na indústria de construção (decorativo). Além de ser muito leve e muito resistente a impactos e corrosão.</p>
+                    <h1>Chapas Lavradas Xadrez</h1>
+                    <p>Antiderrapante, a chapa xadrez é um material muito utilizado em locais que exijam segurança, como escadas, rampas, bases para máquinas, pisos de ônibus e na indústria de construção (decorativo). Além de ser muito leve e muito resistente a impactos e corrosão.</p>
                     <p>Também fornecidas em larguras e espessuras conforme sua necessidade, com quantidade mínima exigida pelo fabricante.</p>
-                    <Link href="/" passHref>
+                    <Link href="/contato" passHref>
                         <S.DescriptionBtn>Saiba mais</S.DescriptionBtn>
                     </Link>
                 </div>

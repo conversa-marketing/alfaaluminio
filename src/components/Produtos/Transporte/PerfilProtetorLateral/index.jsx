@@ -1,7 +1,7 @@
 import React from 'react';
 import * as S from '../../styled'
 import Image from 'next/image'
-import imgBarra from '../../../../assets/img/barra-quadrada.jpeg'
+import ProtetorLateral from '../../../../assets/img/perfil-protetor-lateral.jpg'
 
 
 function PPL() {
@@ -11,7 +11,7 @@ function PPL() {
             <S.ProductHeader>
                 <S.ProductImageWrapper>
                     <Image
-                        src={imgBarra}
+                        src={ProtetorLateral}
                         alt="Barras Quadradas de Alumínio"
                         quality={100}
                         placeholder="blur"
@@ -23,7 +23,7 @@ function PPL() {
                 </div>
             </S.ProductHeader>
             <div>
-                componente de contato
+
             </div>
         </S.MainWrapper >
     )

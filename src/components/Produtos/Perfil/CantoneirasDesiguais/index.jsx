@@ -21,8 +21,7 @@ function CAD() {
                 </S.ProductImageWrapper>
                 <div>
                     <h1>Cantoneiras Abas Desiguais</h1>
-                    <p></p>
-                    <Link href="/" passHref>
+                    <Link href="/contato" passHref>
                         <S.DescriptionBtn>Saiba mais</S.DescriptionBtn>
                     </Link>
                 </div>

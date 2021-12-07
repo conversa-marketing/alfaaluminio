@@ -42,10 +42,19 @@ export const EmpresaContent = styled.main`
         margin-bottom: 2rem;
     }
 
-    p {
+    ul > li {
         font-size: 1rem;
         font-weight: 500;
         margin-bottom: 1rem;
+    }
+
+    ul > li:not(:last-child)::after {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 1px;
+        background-color: #3333332b;
+        margin: 2rem 0;
     }
 `
 

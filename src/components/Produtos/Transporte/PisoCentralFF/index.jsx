@@ -1,7 +1,7 @@
 import React from 'react';
 import * as S from '../../styled'
 import Image from 'next/image'
-import imgBarra from '../../../../assets/img/barra-quadrada.jpeg'
+import PisoCentral from '../../../../assets/img/piso-central-furgao-frigorifico.jpg'
 
 
 function PFFSP() {
@@ -11,7 +11,7 @@ function PFFSP() {
             <S.ProductHeader>
                 <S.ProductImageWrapper>
                     <Image
-                        src={imgBarra}
+                        src={PisoCentral}
                         alt="Barras Quadradas de Alumínio"
                         quality={100}
                         placeholder="blur"
@@ -23,7 +23,7 @@ function PFFSP() {
                 </div>
             </S.ProductHeader>
             <div>
-                componente de contato
+
             </div>
         </S.MainWrapper >
     )

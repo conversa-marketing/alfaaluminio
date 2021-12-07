@@ -28,7 +28,7 @@ function CLE() {
                         construção civil, especialmente telhas para cobertura.</p>
                     <p>Também fornecidas em larguras e espessuras conforme sua necessidade,
                         com quantidade mínima exigida pelo fabricante.</p>
-                    <Link href="/" passHref>
+                    <Link href="/contato" passHref>
                         <S.DescriptionBtn>Saiba mais</S.DescriptionBtn>
                     </Link>
                 </div>

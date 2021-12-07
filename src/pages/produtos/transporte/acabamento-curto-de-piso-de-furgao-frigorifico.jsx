@@ -1,8 +1,8 @@
 import React from 'react';
 import { NextSeo } from 'next-seo';
-import ACFF from '../../../components/Produtos/Transporte/AcabamentoCurtoFF'
+import ACFF from '../../../components/Produtos/Transporte/AcabamentoCurtoFF';
 
-export default function PagBarraQuadrada() {
+export default function PagAcabamentoCurto() {
 
     return (
         <>

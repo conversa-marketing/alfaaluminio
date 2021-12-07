@@ -2,7 +2,7 @@ import React from 'react';
 import { NextSeo } from 'next-seo';
 import PPL from '../../../components/Produtos/Transporte/PerfilProtetorLateral'
 
-export default function PagBarraQuadrada() {
+export default function PagProtetorLateral() {
 
     return (
         <>

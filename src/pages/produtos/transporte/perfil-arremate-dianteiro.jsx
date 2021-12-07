@@ -2,7 +2,7 @@ import React from 'react';
 import { NextSeo } from 'next-seo';
 import PAD from '../../../components/Produtos/Transporte/PerfilArremateDianteiro'
 
-export default function PagBarraQuadrada() {
+export default function PagArremateDianteiro() {
 
     return (
         <>

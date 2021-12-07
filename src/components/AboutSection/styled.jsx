@@ -12,6 +12,11 @@ export const AboutContainer = styled.div`
     max-width: 1200px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+`
+
+export const EmpresaImage = styled.div`
+    position: relative;
 `
 
 export const AboutContent = styled.div`

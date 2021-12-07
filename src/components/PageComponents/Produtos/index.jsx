@@ -1,6 +1,7 @@
 import React from 'react'
 import * as S from './styled'
 import Image from 'next/image'
+// import produtosTransporte from './Content/transportes'
 import laminados from './Content/laminados'
 import perfis from './Content/perfis'
 import Link from 'next/link'
@@ -48,6 +49,7 @@ function ProdutosPage() {
                         </Link>
                     ))}
                 </S.CategoryWrapper>
+
             </S.ProductsContainer>
         </S.ProductsWrapper >
     )

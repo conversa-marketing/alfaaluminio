@@ -2,7 +2,7 @@ import React from 'react';
 import { NextSeo } from 'next-seo';
 import PFFSL from '../../../components/Produtos/Transporte/PisoFFSLeve'
 
-export default function PagBarraQuadrada() {
+export default function PagPisoFurgaoQT() {
 
     return (
         <>

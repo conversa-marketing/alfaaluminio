@@ -2,7 +2,7 @@ import React from 'react';
 import { NextSeo } from 'next-seo';
 import PAT from '../../../components/Produtos/Transporte/PerfilArremateTraseiro'
 
-export default function PagBarraQuadrada() {
+export default function PagArremateTraseiro() {
 
     return (
         <>

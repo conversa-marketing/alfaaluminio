@@ -1,7 +1,7 @@
 import React from 'react';
 import * as S from '../../styled'
 import Image from 'next/image'
-import imgBarra from '../../../../assets/img/barra-quadrada.jpeg'
+import ArremateTraseiro from '../../../../assets/img/perfil-arremate-traseiro.jpg'
 
 
 function PAD() {
@@ -11,7 +11,7 @@ function PAD() {
             <S.ProductHeader>
                 <S.ProductImageWrapper>
                     <Image
-                        src={imgBarra}
+                        src={ArremateTraseiro}
                         alt="Barras Quadradas de Alumínio"
                         quality={100}
                         placeholder="blur"
@@ -19,11 +19,11 @@ function PAD() {
                     />
                 </S.ProductImageWrapper>
                 <div>
-                    <h1>Perfil Arremate Dianteiro</h1>
+                    <h1>Perfil Arremate Traseiro</h1>
                 </div>
             </S.ProductHeader>
             <div>
-                componente de contato
+
             </div>
         </S.MainWrapper >
     )

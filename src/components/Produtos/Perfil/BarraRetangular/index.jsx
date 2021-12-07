@@ -20,11 +20,11 @@ function BRA() {
                     />
                 </S.ProductImageWrapper>
                 <div>
-                    <h1>Bobinas de Alumínio</h1>
+                    <h1>Barra Retangular de Alumínio</h1>
                     <p>A barra retangular de alumínio é uma solução muito versátil e que está presente em diversos processos industriais, podendo ser aplicada com segurança em formas diferentes.</p>
                     <p>Também fornecidas em larguras e espessuras conforme sua necessidade,
                         com quantidade mínima exigida pelo fabricante.</p>
-                    <Link href="/" passHref>
+                    <Link href="/contato" passHref>
                         <S.DescriptionBtn>Saiba mais</S.DescriptionBtn>
                     </Link>
                 </div>

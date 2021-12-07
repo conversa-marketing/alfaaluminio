@@ -23,7 +23,7 @@ function CPA() {
                     <h1>Chapa Plana de Alumínio</h1>
                     <p>São chapas lisas de acabamento comum. Com ou sem aplicação de película em ambas as faces.</p>
                     <p>Também fornecidas em larguras e espessuras conforme sua necessidade, com quantidade mínima exigida pelo fabricante.</p>
-                    <Link href="/" passHref>
+                    <Link href="/contato" passHref>
                         <S.DescriptionBtn>Saiba mais</S.DescriptionBtn>
                     </Link>
                 </div>

@@ -45,6 +45,7 @@ function HeroSection() {
                     responsive={responsive}
                     infinite
                     autoPlay
+                    autoPlaySpeed={5000}
                     arrows={false}
                     removeArrowOnDeviceType={["tablet", "mobile"]}
                 >

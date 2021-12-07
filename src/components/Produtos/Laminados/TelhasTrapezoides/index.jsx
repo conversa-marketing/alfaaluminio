@@ -25,7 +25,7 @@ function TTA() {
                         concentrada freqüente, ou até mesmo onde pessoas subam para manutenção de
                         calhas, ventiladores, etc.
                     </p>
-                    <Link href="/" passHref>
+                    <Link href="/contato" passHref>
                         <S.DescriptionBtn>Saiba mais</S.DescriptionBtn>
                     </Link>
                 </div>

@@ -35,10 +35,7 @@ function ProductSlider() {
             <S.ProductsContainer>
                 <S.ProductsCall>
                     <h2>Conheça nossos <span>produtos</span></h2>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto ipsum iste nam
-                        in, voluptatibus dicta iusto soluta nulla rem iure tempora minus! Ab, asperiores soluta.
-                    </p>
+                    <p>Oferecemos uma variedade enorme de produtos com alta qualidade, ótimo desempenho e o melhor custo-benefício do mercado. Aqui, você encontra o que precisa e como precisa, com características, formatos, pesos e medidas diferenciados.</p>
                     <Link href="/produtos" passHref>
                         <S.ProductBtn>
                             Todos os produtos
@@ -57,7 +54,8 @@ function ProductSlider() {
                                     <Image
                                         src={slide.slideImg}
                                         draggable={false}
-                                        layout='responsive'
+                                        layout='fill'
+                                        objectFit="cover"
                                         alt={slide.title}
                                     />
                                 </S.ImageHeading>

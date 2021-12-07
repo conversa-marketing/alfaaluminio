@@ -22,7 +22,7 @@ function BTRE() {
                 <div>
                     <h1>Tubo Redondo Retangular de Alumínio</h1>
                     <p></p>
-                    <Link href="/" passHref>
+                    <Link href="/contato" passHref>
                         <S.DescriptionBtn>Saiba mais</S.DescriptionBtn>
                     </Link>
                 </div>

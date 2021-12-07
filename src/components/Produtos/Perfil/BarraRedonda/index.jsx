@@ -22,7 +22,7 @@ function BRA() {
                 <div>
                     <h1>Barra Redonda de Alumínio</h1>
                     <p>Sua utilização engloba diversas situações na indústria, como eixos, ganchos, pinos, torres de resfriamento, hastes e outras aplicações.</p>
-                    <Link href="/" passHref>
+                    <Link href="/contato" passHref>
                         <S.DescriptionBtn>Saiba mais</S.DescriptionBtn>
                     </Link>
                 </div>

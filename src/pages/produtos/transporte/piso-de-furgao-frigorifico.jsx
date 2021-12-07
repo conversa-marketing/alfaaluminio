@@ -2,7 +2,7 @@ import React from 'react';
 import { NextSeo } from 'next-seo';
 import PFF from '../../../components/Produtos/Transporte/PisoFurgaoFrigorifico'
 
-export default function PagBarraQuadrada() {
+export default function PagPisoFurgao() {
 
     return (
         <>

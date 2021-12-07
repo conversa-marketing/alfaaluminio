@@ -2,7 +2,7 @@ import React from 'react';
 import { NextSeo } from 'next-seo';
 import ALFF from '../../../components/Produtos/Transporte/AcabamentoLargoFF'
 
-export default function PagBarraQuadrada() {
+export default function PagAcabamentoLargo() {
 
     return (
         <>

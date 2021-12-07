@@ -44,63 +44,54 @@ const perfis = [
     {
         title: 'Cantoneira Abas Desiguais',
         image: CantoneiraDesigual,
-        text: '',
         url: '/produtos/perfil/cantoneira-abas-desiguais'
     },
 
     {
         title: 'Cantoneira Abas Iguais',
         image: CantoneiraIgual,
-        text: '',
         url: '/produtos/perfil/cantoneira-abas-iguais'
     },
 
     {
         title: 'Perfil "T" Abas Iguais',
         image: PerfilTIgual,
-        text: '',
         url: '/produtos/perfil/perfil-t-abas-iguais'
     },
 
     {
         title: 'Perfil "U" Abas Desiguais',
         image: PerfilUDesigual,
-        text: '',
         url: '/produtos/perfil/perfil-u-abas-desiguais'
     },
 
     {
         title: 'Perfil "U" Abas Iguais',
         image: PerfilUIgual,
-        text: '',
         url: '/produtos/perfil/perfil-u-abas-iguais'
     },
 
     {
         title: 'Tubo Quadrado de Alumínio',
         image: TuboQuadrado,
-        text: '',
         url: '/produtos/perfil/tubo-quadrado'
     },
 
     {
         title: 'Tubo Redondo Schedule',
         image: TuboRedondoSchedule,
-        text: '',
         url: '/produtos/perfil/tubo-redondo-schedule'
     },
 
     {
         title: 'Tubo Redondo de Alumínio',
         image: TuboRedondo,
-        text: '',
         url: '/produtos/perfil/tubo-redondo'
     },
 
     {
         title: 'Tubo Retangular de Alumínio',
         image: TuboRetangular,
-        text: '',
         url: '/produtos/perfil/tubo-retangular'
     },
 ]

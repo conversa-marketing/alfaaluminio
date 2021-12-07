@@ -73,7 +73,7 @@ export const CarouselCard = styled.div`
 
     h3 {
         color: var(--black);
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         text-align: center;
     }
 `
@@ -91,4 +91,5 @@ export const ImageHeading = styled.div`
     width: 100%;
     height: 190px;
     overflow: hidden;
+    position: relative;
 `

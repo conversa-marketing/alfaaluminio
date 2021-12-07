@@ -22,7 +22,7 @@ function BTRS() {
                 <div>
                     <h1>Tubo Redondo Schedule de Alumínio</h1>
                     <p></p>
-                    <Link href="/" passHref>
+                    <Link href="/contato" passHref>
                         <S.DescriptionBtn>Saiba mais</S.DescriptionBtn>
                     </Link>
                 </div>

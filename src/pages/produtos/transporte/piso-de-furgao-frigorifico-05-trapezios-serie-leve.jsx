@@ -2,7 +2,7 @@ import React from 'react';
 import { NextSeo } from 'next-seo';
 import PFFSM from '../../../components/Produtos/Transporte/PisoFFSMedia'
 
-export default function PagBarraQuadrada() {
+export default function PagPisoFurgaoCT() {
 
     return (
         <>

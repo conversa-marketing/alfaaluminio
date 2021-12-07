@@ -22,7 +22,7 @@ function BTQ() {
                 <div>
                     <h1>Tubo Quadrado de Alumínio</h1>
                     <p>O vergalhão sextavado de alumínio é uma peça amplamente aplicada na estruturação dos mais variados segmentos, sendo também eficiente na utilização da manutenção de máquinas e equipamentos industriais.</p>
-                    <Link href="/" passHref>
+                    <Link href="/contato" passHref>
                         <S.DescriptionBtn>Saiba mais</S.DescriptionBtn>
                     </Link>
                 </div>

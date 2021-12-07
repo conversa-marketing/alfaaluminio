@@ -2,7 +2,7 @@ import React from 'react';
 import { NextSeo } from 'next-seo';
 import PG from '../../../components/Produtos/Transporte/PerfilGancho'
 
-export default function PagBarraQuadrada() {
+export default function PagPerfilGancho() {
 
     return (
         <>
