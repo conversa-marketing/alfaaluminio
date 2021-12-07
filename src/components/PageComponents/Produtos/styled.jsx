@@ -17,6 +17,11 @@ export const ProdutosBanner = styled.div`
     justify-content: center;
     align-items: center;
     margin-bottom: 2rem;
+    text-align: center;
+
+    ${media.lessThan("medium")`
+        height: 300px;
+    `}
 
     span {
         z-index: -1;
@@ -33,11 +38,24 @@ export const ProductsContainer = styled.div`
     width: 100%;
     max-width: 1200px;
 
+    ${media.lessThan("large")`
+        max-width: 900px;
+    `}
+
+    ${media.lessThan("medium")`
+        max-width: 500px;
+        padding: 20px;
+    `}
+
     h2 {
         font-size: 2.5rem;
         color: var(--blue-primary);
         margin-bottom: 1rem;
         margin-top: 4rem;
+
+        ${media.lessThan("medium")`
+            margin-top: 1rem;
+        `}
     }
 
     h2:not(:first-child)::before {
@@ -59,6 +77,14 @@ export const CategoryWrapper = styled.div`
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+
+    ${media.lessThan("large")`
+        grid-template-columns: 1fr 1fr;
+    `}
+
+    ${media.lessThan("medium")`
+        grid-template-columns: 1fr;
+    `}
 `
 
 export const CategoryItem = styled.a`
@@ -68,6 +94,10 @@ export const CategoryItem = styled.a`
     border-radius: 5px;
     overflow: hidden;
     transition: all 0.3s ease;
+
+    ${media.lessThan("medium")`
+        min-width: 100%;
+    `}
 
     &:hover {
         background-color: #f5f5f5;

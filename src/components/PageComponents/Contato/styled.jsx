@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import media from "styled-media-query"
 
 export const ContactWrapper = styled.section`
     display: flex;
@@ -15,6 +16,11 @@ export const ContactBanner = styled.div`
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-align: center;
+    
+    ${media.lessThan("medium")`
+        height: 300px;
+    `}
 
     span {
         z-index: -1;
