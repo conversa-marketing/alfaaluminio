@@ -1,7 +1,7 @@
 import React from 'react'
 import * as S from './styled'
 import Image from 'next/image'
-// import produtosTransporte from './Content/transportes'
+import produtosTransporte from './Content/transportes'
 import laminados from './Content/laminados'
 import perfis from './Content/perfis'
 import Link from 'next/link'
@@ -49,7 +49,22 @@ function ProdutosPage() {
                         </Link>
                     ))}
                 </S.CategoryWrapper>
-
+                <h2>Perfis de Transporte</h2>
+                <p>Soluções em alumínio para todos os tipos de veículos. Confira a seguir os produtos disponíveis em nosso estoque</p>
+                <S.CategoryWrapper>
+                    {produtosTransporte.map((transporte, index) => (
+                        <Link key={index} href={transporte.url} passHref>
+                            <S.CategoryItem>
+                                <S.CategoryImageWrapper>
+                                    <Image src={transporte.image} alt={transporte.title} layout="fill" />
+                                </S.CategoryImageWrapper>
+                                <S.CategoryContent>
+                                    <h3>{transporte.title}</h3>
+                                </S.CategoryContent>
+                            </S.CategoryItem>
+                        </Link>
+                    ))}
+                </S.CategoryWrapper>
             </S.ProductsContainer>
         </S.ProductsWrapper >
     )
