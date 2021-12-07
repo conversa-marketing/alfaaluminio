@@ -1,9 +1,9 @@
 import ChapaPlana from '../../../../assets/img/chapa-plana.jpg'
-import ChapaXadrez from '../../../../assets/img/chapa-xadrez.jpg';
-import ChapaEstucco from '../../../../assets/img/chapa-estucco.jpg';
-import BobinaAluminio from '../../../../assets/img/bobina-aluminio.jpg';
-import TelhaTrapezoide from '../../../../assets/img/telha-trapezoide.jpg';
-import TelhaOndulada from '../../../../assets/img/telha-ondulada.jpg';
+import ChapaXadrez from '../../../../assets/img/chapa-xadrez.jpg'
+import ChapaEstucco from '../../../../assets/img/chapa-estucco.jpg'
+import BobinaAluminio from '../../../../assets/img/bobina-aluminio.jpg'
+import TelhaTrapezoide from '../../../../assets/img/telha-trapezoide.jpg'
+import TelhaOndulada from '../../../../assets/img/telha-ondulada.jpg'
 
 const laminados = [
     {

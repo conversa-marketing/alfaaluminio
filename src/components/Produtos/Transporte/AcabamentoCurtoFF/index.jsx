@@ -1,7 +1,7 @@
 import React from 'react'
 import * as S from '../../styled'
 import Image from 'next/image'
-import AcabamentoCurto from '../../../../assets/img/acabamento-curto.jpg'
+import ImgAcabamentoCurto from '../../../../assets/img/acabamento-curto.jpg'
 
 
 function ACFF() {
@@ -11,7 +11,7 @@ function ACFF() {
             <S.ProductHeader>
                 <S.ProductImageWrapper>
                     <Image
-                        src={AcabamentoCurto}
+                        src={ImgAcabamentoCurto}
                         alt="Barras Quadradas de Alumínio"
                         quality={100}
                         placeholder="blur"

@@ -1,7 +1,7 @@
 import React from 'react'
 import * as S from '../../styled'
 import Image from 'next/image'
-import AcabamentoLargo from '../../../../assets/img/acabamento-largo.jpg'
+import ImgAcabamentoLargo from '../../../../assets/img/acabamento-largo.jpg'
 
 
 function ALFF() {
@@ -11,7 +11,7 @@ function ALFF() {
             <S.ProductHeader>
                 <S.ProductImageWrapper>
                     <Image
-                        src={AcabamentoLargo}
+                        src={ImgAcabamentoLargo}
                         alt="Barras Quadradas de Alumínio"
                         quality={100}
                         placeholder="blur"

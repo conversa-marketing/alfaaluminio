@@ -1,17 +1,17 @@
 import React from 'react'
 import * as S from './styled'
 import Image from 'next/image'
-import produtosTransporte from './Content/transportes'
 import laminados from './Content/laminados'
 import perfis from './Content/perfis'
+import transportes from './Content/transportes'
 import Link from 'next/link'
 import ProdutosBanner from '../../../assets/img/produtos-banner.jpg'
 
-function ProdutosPage() {
+export default function ProdutosPage() {
     return (
         <S.ProductsWrapper>
             <S.ProdutosBanner>
-                <Image src={ProdutosBanner} draggable="false" layout="fill" objectFit="cover" alt="" />
+                <Image src={ProdutosBanner} draggable="false" layout="fill" objectFit="cover" alt="" priority />
                 <h1>Nossos Produtos</h1>
             </S.ProdutosBanner>
             <S.ProductsContainer>
@@ -52,7 +52,7 @@ function ProdutosPage() {
                 <h2>Perfis de Transporte</h2>
                 <p>Soluções em alumínio para todos os tipos de veículos. Confira a seguir os produtos disponíveis em nosso estoque</p>
                 <S.CategoryWrapper>
-                    {produtosTransporte.map((transporte, index) => (
+                    {transportes.map((transporte, index) => (
                         <Link key={index} href={transporte.url} passHref>
                             <S.CategoryItem>
                                 <S.CategoryImageWrapper>
@@ -70,4 +70,3 @@ function ProdutosPage() {
     )
 }
 
-export default ProdutosPage

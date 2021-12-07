@@ -1,7 +1,7 @@
 import React from 'react';
 import * as S from '../../styled'
 import Image from 'next/image'
-import LongarinaInferior from '../../../../assets/img/longarina-inferior.jpg'
+import ImgLongarinaInferior from '../../../../assets/img/longarina-inferior.jpg'
 
 
 function LI() {
@@ -11,7 +11,7 @@ function LI() {
             <S.ProductHeader>
                 <S.ProductImageWrapper>
                     <Image
-                        src={LongarinaInferior}
+                        src={ImgLongarinaInferior}
                         alt="Barras Quadradas de Alumínio"
                         quality={100}
                         placeholder="blur"
