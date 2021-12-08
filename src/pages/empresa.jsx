@@ -1,13 +1,13 @@
 import React from 'react'
-import Head from 'next/head'
 import Empresa from '../components/PageComponents/Empresa'
 
 export default function empresa() {
     return (
         <>
-            <Head>
-                <title>Empresa</title>
-            </Head>
+            <NextSeo
+                title="A Empresa | Alfa Alumínio"
+                description="Conheça a Alfa Alumínio e toda nossa experiência e competência de mercado!"
+            />
             <Empresa />
         </>
     )

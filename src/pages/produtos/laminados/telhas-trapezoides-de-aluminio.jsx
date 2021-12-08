@@ -7,8 +7,7 @@ export default function PagTelhaTrapezoide() {
     return (
         <>
             <NextSeo
-                title="Chapas PLanas de Alumínio | Alfa Alumínio"
-                description="São chapas lisas de acabamento comum. Com ou sem aplicação de película em ambas as faces."
+                title="Telhas Trapezoides de Alumínio | Alfa Alumínio"
             />
             <TTA />
         </>

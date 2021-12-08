@@ -7,8 +7,7 @@ export default function PagLongarinaInferior() {
     return (
         <>
             <NextSeo
-                title="Chapas Lavradas Estucco de Alumínio | Alfa Alumínio"
-                description="Chapas Lavradas Xadrez de Alumínio de alta qualidade e procedência para uso em projetos de construção civil e industrial."
+                title="Longarina Inferior | Alfa Alumínio"
             />
             <LI />
         </>

@@ -5,9 +5,10 @@ import ProdutosPage from '../components/PageComponents/Produtos'
 export default function produtos() {
     return (
         <>
-            <Head>
-                <title>Produtos</title>
-            </Head>
+            <NextSeo
+                title="Produtos | Alfa Alumínio"
+                description="Veja toda nossa linha de produtos e suas informações e entre em contato!"
+            />
             <ProdutosPage />
         </>
     )
