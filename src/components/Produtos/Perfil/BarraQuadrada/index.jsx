@@ -1,7 +1,7 @@
 import React from 'react';
 import * as S from '../../styled'
 import Image from 'next/image'
-import imgBarra from '../../../../assets/img/barra-quadrada.jpeg'
+import imgBarra from '../../../../assets/img/barra-quadrada.jpg'
 import Link from 'next/link'
 
 

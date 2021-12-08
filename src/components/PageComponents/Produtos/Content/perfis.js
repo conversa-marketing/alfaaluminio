@@ -1,5 +1,5 @@
 import BarraRetangular from '../../../../assets/img/barra-retangular.jpg'
-import BarraQuadrada from '../../../../assets/img/barra-quadrada.jpeg'
+import BarraQuadrada from '../../../../assets/img/barra-quadrada.jpg'
 import BarraSextavada from '../../../../assets/img/barra-sextavada.jpg'
 import BarraRedonda from '../../../../assets/img/barra-redonda.jpg'
 import CantoneiraDesigual from '../../../../assets/img/cantoneira-desigual.jpg'

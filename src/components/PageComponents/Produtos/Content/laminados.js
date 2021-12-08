@@ -13,12 +13,6 @@ const laminados = [
     },
 
     {
-        title: 'Chapa Lavrada Estucco de Alumínio',
-        image: ChapaEstucco,
-        url: '/produtos/laminados/chapas-lavradas-estucco'
-    },
-
-    {
         title: 'Chapas Lavradas Xadrez',
         image: ChapaXadrez,
         url: '/produtos/laminados/chapas-lavradas-xadrez'
