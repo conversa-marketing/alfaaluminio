@@ -38,11 +38,11 @@ function ProductSlider() {
         <S.ProductsWrapper>
             <S.ProductsContainer>
                 <S.ProductsCall>
-                    <h2>Conheça nossos <span>produtos</span></h2>
+                    <h2>Confira alguns de nossos <span> produtos</span></h2>
                     <p>Oferecemos uma variedade enorme de produtos com alta qualidade, ótimo desempenho e o melhor custo-benefício do mercado. Aqui, você encontra o que precisa e como precisa, com características, formatos, pesos e medidas diferenciados.</p>
                     <Link href="/produtos" passHref>
                         <S.ProductBtn>
-                            Todos os produtos
+                            Confira todos os produtos
                         </S.ProductBtn>
                     </Link>
                 </S.ProductsCall>

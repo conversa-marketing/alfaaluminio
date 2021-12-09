@@ -2,6 +2,7 @@ import Head from 'next/head'
 import AboutAlfa from '../components/AboutSection'
 import Clients from '../components/ClientsSection'
 import ContactSection from '../components/ContactSection'
+import DownloadSection from '../components/DownloadSection'
 import HeroSection from '../components/Hero'
 import ProductSlider from '../components/ProductSlider'
 
@@ -15,6 +16,7 @@ export default function Home() {
       </Head>
       <HeroSection />
       <ProductSlider />
+      <DownloadSection />
       <Clients />
       <AboutAlfa />
       <ContactSection />

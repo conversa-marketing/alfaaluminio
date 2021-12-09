@@ -1,5 +1,5 @@
 import React from 'react'
-import Head from 'next/head'
+import { NextSeo } from 'next-seo';
 import ProdutosPage from '../components/PageComponents/Produtos'
 
 export default function produtos() {

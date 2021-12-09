@@ -42,28 +42,28 @@ function ContactPage() {
                 </S.FiliaisHeading>
                 <S.FiliaisWrapper>
                     <S.FiliaisItem>
-                        <h3>Alfa Minas Comercial de Alumínio LTDA</h3>
+                        <h3>Alfa Alumínio - Minas Gerais</h3>
                         <p>Rua padre Joaquim de souza silva, 101 – letra A – Bairro: Industrial
                             Cidade: Contagem – MG – CEP: 32220-330</p>
                         <a href="tel:553133625313"><span>Fone:</span> (31) 3362-5313</a>
                     </S.FiliaisItem>
 
                     <S.FiliaisItem>
-                        <h3>DPA Ville Distribuidora de Alumínio LTDA</h3>
+                        <h3>Alfa Alumínio - Santa Catarina</h3>
                         <p>Rua dos suíços, 4466 – galpão A – bairro: Vila Nova
                             Cidade: Joinville – SC – CEP: 89237-720</p>
                         <a href="tel:554734176464"><span>Fone:</span> (47) 3417-6464</a>
                     </S.FiliaisItem>
 
                     <S.FiliaisItem>
-                        <h3>Comercial DPA de Alumínio LTDA</h3>
+                        <h3>Alfa Alumínio - Rio Grande do Sul</h3>
                         <p>Av. Ruben Bento Alves, 5546 – bairro: Marechal Floriano.
                             Cidade: Caxias do Sul – RS – CEP: 95013-004</p>
                         <a href="tel:555432110811"><span>Fone:</span> (54) 3211-0811</a>
                     </S.FiliaisItem>
 
                     <S.FiliaisItem>
-                        <h3>Alfa Distribuidora Alumínio LTDA</h3>
+                        <h3>Alfa Alumínio - Rio Grande do Sul</h3>
                         <p>Travessa Venezuela, 150 – Depósito 10 – bairro: Navegantes.
                             Cidade: Porto Alegre – RS – CEP: 90240-220</p>
                         <a href="tel:555130837090"><span>Fone:</span> (51) 3083-7090</a>

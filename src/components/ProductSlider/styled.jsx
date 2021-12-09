@@ -30,7 +30,6 @@ export const ProductsCall = styled.div`
         margin-bottom: 2rem;
 
         span {
-            display: block;
             color: var(--blue-primary);
         }
     }

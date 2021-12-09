@@ -6,7 +6,6 @@ export const ProductsWrapper = styled.section`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-bottom: 10vh;
 `
 
 export const ProdutosBanner = styled.div`
@@ -37,6 +36,7 @@ export const ProdutosBanner = styled.div`
 export const ProductsContainer = styled.div`
     width: 100%;
     max-width: 1200px;
+    margin-bottom: 5vh;
 
     ${media.lessThan("large")`
         max-width: 900px;

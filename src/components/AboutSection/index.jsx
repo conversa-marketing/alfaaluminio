@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import ImgEmpresa from '../../assets/img/empresa.jpg'
+import ImgEmpresa from '../../assets/img/alfa-img.png'
 import * as S from './styled';
 
 function AboutAlfa() {

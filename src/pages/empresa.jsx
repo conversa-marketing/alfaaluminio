@@ -1,4 +1,5 @@
 import React from 'react'
+import { NextSeo } from 'next-seo';
 import Empresa from '../components/PageComponents/Empresa'
 
 export default function empresa() {

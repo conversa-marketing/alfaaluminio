@@ -6,6 +6,7 @@ import perfis from './Content/perfis'
 import transportes from './Content/transportes'
 import Link from 'next/link'
 import ProdutosBanner from '../../../assets/img/produtos-banner.jpg'
+import DownloadSection from '../../DownloadSection'
 
 export default function ProdutosPage() {
     return (
@@ -64,6 +65,7 @@ export default function ProdutosPage() {
                     ))}
                 </S.CategoryWrapper>
             </S.ProductsContainer>
+            <DownloadSection />
         </S.ProductsWrapper>
     )
 }
