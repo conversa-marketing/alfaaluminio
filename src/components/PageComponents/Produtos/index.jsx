@@ -4,6 +4,7 @@ import Image from 'next/image'
 import laminados from './Content/laminados'
 import perfis from './Content/perfis'
 import transportes from './Content/transportes'
+import barcos from './Content/barcos'
 import Link from 'next/link'
 import ProdutosBanner from '../../../assets/img/produtos-banner.jpg'
 import DownloadSection from '../../DownloadSection'
@@ -52,6 +53,22 @@ export default function ProdutosPage() {
                 <p>Soluções em alumínio para todos os tipos de veículos. Confira a seguir os produtos disponíveis em nosso estoque</p>
                 <S.CategoryWrapper>
                     {transportes.map((transporte, index) => (
+                        <Link key={index} href={transporte.url} passHref>
+                            <S.CategoryItem>
+                                <S.CategoryImageWrapper>
+                                    <Image src={transporte.image} alt={transporte.title} layout="fill" />
+                                </S.CategoryImageWrapper>
+                                <S.CategoryContent>
+                                    <h3>{transporte.title}</h3>
+                                </S.CategoryContent>
+                            </S.CategoryItem>
+                        </Link>
+                    ))}
+                </S.CategoryWrapper>
+                <h2>Perfis de Barco</h2>
+                <p>Soluções em alumínio para todos os tipos de veículos. Confira a seguir os produtos disponíveis em nosso estoque</p>
+                <S.CategoryWrapper>
+                    {barcos.map((transporte, index) => (
                         <Link key={index} href={transporte.url} passHref>
                             <S.CategoryItem>
                                 <S.CategoryImageWrapper>

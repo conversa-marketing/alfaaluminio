@@ -43,6 +43,7 @@ export const ProductImageWrapper = styled.div`
     min-height: 350px;
     border-radius: 10px;
     overflow: hidden;
+    border: 1px solid #e5e5e5;
     position: relative;
 `
 
