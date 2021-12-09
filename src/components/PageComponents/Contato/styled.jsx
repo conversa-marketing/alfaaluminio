@@ -25,20 +25,6 @@ export const ContactBanner = styled.div`
     span {
         z-index: -1;
     }
-
-    h1 {
-        color: var(--white);
-        font-size: 2.5rem;
-        text-align: center;
-        margin-bottom: 1rem;
-        z-index: 1;
-    }
-
-    p {
-        text-align: center;
-        z-index: 1;
-        color: var(--white);
-    }
 `
 
 export const ContactContainer = styled.div`
@@ -51,6 +37,18 @@ export const ContactContainer = styled.div`
         max-width: 900px;
         padding: 20px;
     `}
+
+    h1 {
+        color: var(--black);
+        font-size: 2.5rem;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    p {
+        text-align: center;
+        color: var(--black);
+    }
 `
 
 export const IframeWrapper = styled.div`
@@ -66,9 +64,13 @@ export const IframeWrapper = styled.div`
 
 export const ContactHeading = styled.div`
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 50px;
-    margin: 2rem 0;
+    margin: 0 0 2rem 0;
+
+    h3, p {
+        text-align: left;
+    }
 
     ${media.lessThan("medium")`
         grid-template-columns: 1fr;
@@ -77,8 +79,9 @@ export const ContactHeading = styled.div`
 
 export const ContactInfo = styled.div`
     background-color: #f7f7f7;
-    padding: 2rem;
+    padding: 1rem;
     border-radius: 5px;
+    border: 3px solid #e5e5e5;
 
     ${media.lessThan("small")`
         padding: 1rem;
@@ -108,15 +111,31 @@ export const FormInfo = styled.div`
         background-color: #f7f7f7;
         border-radius: 10px;
         width: 100%;
-        gap: 30px;
         max-width: 600px;
+        border: 3px solid #e5e5e5;
+
+        ${media.lessThan("small")`
+            padding: 10px;
+            border: none;
+        `}
+    }
+    
+    form > label {
+        font-size: .8rem;
+        font-weight: 600;
+        font-family: inherit;
+        margin-bottom: .5rem;
     }
 
-    form > input {
+    form :nth-child(3) {
+        display: none;
+    }
+
+    form > input, select {
         border: 1px solid #ccc;
-        outline: 0;
         box-shadow: none;
         padding: 15px;
+        margin-bottom: 10px;
         border-radius: 5px;
         font-family: inherit;
     }
@@ -126,6 +145,7 @@ export const FormInfo = styled.div`
         height: 150px;
         border-radius: 5px;
         border: 1px solid #ccc;
+        margin-bottom: 30px;
         padding: 15px;
         font-family: inherit;
     }
@@ -148,12 +168,13 @@ export const FiliaisHeading = styled.div`
         font-size: 2rem;
         color: var(--blue-primary);
         text-align: center;
+        margin-top: 1rem;
     }
 `
 
 export const FiliaisWrapper = styled.div`
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     margin-bottom: 4rem;
     grid-gap: 30px;
 
@@ -183,6 +204,7 @@ export const FiliaisItem = styled.div`
     h3 {
         color: var(--red-primary);
         margin-bottom: 1rem;
+        text-align: center;
     }
 
     p {
@@ -196,7 +218,7 @@ export const FiliaisItem = styled.div`
         padding: 10px;
         display: flex;
         font-size: .8rem;
-        align-self: start;
+        align-self: center;
         border-radius: 5px;
         font-weight: 500;
         border: 1px solid var(--blue-primary);

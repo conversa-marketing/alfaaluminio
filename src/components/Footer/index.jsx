@@ -35,33 +35,25 @@ function Footer() {
                 <S.FooterContact>
                     <ul>
                         <li>
-                            <Link href="#">
-                                <a>
+                            <Link href="https://wa.me/5511998208688?text=Ol%C3%A1,%20tenho%20interesse%20em%20um%20produto%20do%20site%20Alfa%20Aluminio">
+                                <a target="_blank" rel="noopener noreferrer">
                                     <Whatsapp size={24} />
                                 </a>
                             </Link>
                         </li>
 
                         <li>
-                            <Link href="#">
-                                <a>
+                            <Link href="https://www.facebook.com/Alfa-Aluminio-Comecial-1157166057785141">
+                                <a target="_blank" rel="noopener noreferrer">
                                     <Facebook size={24} />
                                 </a>
                             </Link>
                         </li>
 
                         <li>
-                            <Link href="#">
-                                <a>
+                            <Link href="https://www.instagram.com/aluminio.alfa/">
+                                <a target="_blank" rel="noopener noreferrer">
                                     <Instagram size={24} />
-                                </a>
-                            </Link>
-                        </li>
-
-                        <li>
-                            <Link href="#">
-                                <a>
-                                    <Linkedin size={24} />
                                 </a>
                             </Link>
                         </li>

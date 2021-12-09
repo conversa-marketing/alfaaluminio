@@ -8,39 +8,18 @@ function ContactPage() {
         <S.ContactWrapper>
             <S.ContactBanner>
                 <Image src={ContatoBanner} layout="fill" objectFit="cover" alt="" priority />
-                <h1>Entre em contato</h1>
-                <p>Precisa de um orçamento ou tem dúvidas sobre algum de nossos produtos? Preencha o formulário a baixo!</p>
             </S.ContactBanner>
             <S.ContactContainer>
-                <S.ContactHeading>
-                    <S.ContactInfo>
-                        <h3>Matriz</h3>
-                        <p>Rua Florianópolis, 252, Jd. Leda (Fazendinha), Santana da Parnaíba - SP</p>
-                    </S.ContactInfo>
-                    <S.ContactInfo>
-                        <h3>Email</h3>
-                        <p>contato@alfaaluminio.com.br</p>
-                    </S.ContactInfo>
-                    <S.ContactInfo>
-                        <h3>Horários</h3>
-                        <p>Segunda à Sexta</p>
-                        <p>8h às 18h</p>
-                    </S.ContactInfo>
-                </S.ContactHeading>
-                <S.FormInfo>
-                    <form action="https://formsubmit.co/your@email.com" method="POST">
-                        <input type="text" name="nome" required placeholder="Nome" />
-                        <input type="email" name="email" required placeholder="Email" />
-                        <input type="text" name="telefone" required placeholder="Telefone" />
-                        <input type="text" name="assunto" placeholder="Assunto" />
-                        <textarea name="mensagem" required placeholder="Mensagem"></textarea>
-                        <button type="submit">Quero uma cotação</button>
-                    </form>
-                </S.FormInfo>
                 <S.FiliaisHeading>
-                    <h3>Filiais</h3>
+                    <h3>Unidades</h3>
                 </S.FiliaisHeading>
                 <S.FiliaisWrapper>
+                    <S.FiliaisItem>
+                        <h3>Alfa Alumínio - Matriz SP</h3>
+                        <p>Rua Florianópolis, 252, Bairro: Jd. Leda (Fazendinha) Cidade: Santana da Parnaíba - SP - CEP: 06529-302</p>
+                        <a href="tel:1141565577"><span>Fone:</span> (11) 4156-5577</a>
+                    </S.FiliaisItem>
+
                     <S.FiliaisItem>
                         <h3>Alfa Alumínio - Minas Gerais</h3>
                         <p>Rua padre Joaquim de souza silva, 101 – letra A – Bairro: Industrial
@@ -69,6 +48,47 @@ function ContactPage() {
                         <a href="tel:555130837090"><span>Fone:</span> (51) 3083-7090</a>
                     </S.FiliaisItem>
                 </S.FiliaisWrapper>
+                <S.ContactHeading>
+                    <S.ContactInfo>
+                        <h3>Email</h3>
+                        <p>contato@alfaaluminio.com.br</p>
+                    </S.ContactInfo>
+                    <S.ContactInfo>
+                        <h3>Horários</h3>
+                        <p>Segunda à Sexta</p>
+                        <p>8h às 18h</p>
+                    </S.ContactInfo>
+                </S.ContactHeading>
+
+                <h1>Entre em contato</h1>
+                <p>Precisa de um orçamento ou tem dúvidas sobre algum de nossos produtos? Preencha o formulário a baixo!</p>
+                <S.FormInfo>
+                    <form action="https://formsubmit.co/gabrielsyze@gmail.com" method="POST">
+                        <input type="hidden" name="_next" value="http://localhost:3000/" />
+                        <input type="hidden" name="_subject" value="Novo Contato do Site!" />
+                        <input type="text" name="_honey" />
+                        <label htmlFor="Nome">Nome</label>
+                        <input type="text" name="Nome" required placeholder="Nome Completo" />
+                        <label htmlFor="Email">Email</label>
+                        <input type="email" name="Email" required placeholder="Email" />
+                        <label htmlFor="Telefone">Telefone</label>
+                        <input type="text" name="Telefone" required placeholder="Telefone com DDD" />
+                        <label htmlFor="Assunto">Assunto</label>
+                        <input type="text" name="Assunto" placeholder="Assunto" />
+                        <label htmlFor="Unidade">Escolha a unidade</label>
+                        <select name="Unidade" id="Unidade" required>
+                            <option value="">Selecione</option>
+                            <option value="Unidade Matriz SP">Unidade Matriz SP</option>
+                            <option value="Unidade Minas Gerais">Unidade Minas Gerais</option>
+                            <option value="Unidade Santa Catarina">Unidade Santa Catarina</option>
+                            <option value="Unidade Caxias do Sul RS">Unidade Caxias do Sul RS</option>
+                            <option value="Unidade Porto Alegre RS">Unidade Porto Alegre RS</option>
+                        </select>
+                        <label htmlFor="Mensagem">Mensagem</label>
+                        <textarea name="Mensagem" required placeholder="Mensagem (opcional)"></textarea>
+                        <button type="submit">Quero uma cotação</button>
+                    </form>
+                </S.FormInfo>
             </S.ContactContainer>
             <S.IframeWrapper>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14646.581705225271!2d-46.8795244!3d-23.4010411!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfd64bd1df430c46a!2sAlfa%20Alum%C3%ADnio!5e0!3m2!1spt-BR!2sbr!4v1638821768997!5m2!1spt-BR!2sbr" loading="lazy"></iframe>

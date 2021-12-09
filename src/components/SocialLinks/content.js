@@ -5,11 +5,6 @@ const SocialIcons = [
     },
 
     {
-        name: 'Linkedin',
-        url: 'https://www.linkedin.com/',
-    },
-
-    {
         name: 'Instagram',
         url: 'https://www.instagram.com/',
     },
