@@ -1,6 +1,8 @@
 import React from 'react';
 import { NextSeo } from 'next-seo';
 import BSA from '../../../components/Produtos/Perfil/BarraSextavada'
+import DownloadSection from '../../../components/DownloadSection'
+
 
 export default function PagBarraSextavada() {
 
@@ -10,6 +12,7 @@ export default function PagBarraSextavada() {
                 title="Barra Sextavada de Alumínio | Alfa Alumínio"
             />
             <BSA />
+            <DownloadSection />
         </>
     )
 }

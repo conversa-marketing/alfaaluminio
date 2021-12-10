@@ -1,6 +1,8 @@
 import React from 'react';
 import { NextSeo } from 'next-seo';
 import PG from '../../../components/Produtos/Transporte/PerfilGancho'
+import DownloadSection from '../../../components/DownloadSection'
+
 
 export default function PagPerfilGancho() {
 
@@ -10,6 +12,7 @@ export default function PagPerfilGancho() {
                 title="Perfil de Gancho | Alfa Alumínio"
             />
             <PG />
+            <DownloadSection />
         </>
     )
 }
