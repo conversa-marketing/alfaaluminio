@@ -32,6 +32,7 @@ const GlobalStyles = createGlobalStyle`
     --red-primary: #f02d26;
     --red-primary-hover: #d52f29;
     --blue-primary: #00447d;
+    --blue-primary-hover: #0A599B;
     --white: #fff;
     --gray-light: #f6f6f6;
     --black: #222;

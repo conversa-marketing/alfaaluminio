@@ -9,8 +9,8 @@ export const HeaderWrapper = styled.header`
     position: relative;
     background-color: var(--white);
 
-    ${media.lessThan("large")`
-        display: none;
+    ${media.lessThan("medium")`
+        padding: 1rem;
     `}
 `
 
@@ -20,6 +20,12 @@ export const HeaderContent = styled.div`
     width: 100%;
     justify-content: space-between;
     max-width: 1200px;
+
+    ${media.lessThan("medium")`
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    `}
 `
 
 export const LogoWrapper = styled.div`
@@ -32,11 +38,27 @@ export const LinksNav = styled.nav`
     display: flex;
     align-items: center;
     gap: 3em;
+
+    ${media.lessThan("medium")`
+        border-top: 1px solid #e5e5e5;
+        margin-top: 2rem;
+        padding-top: 1rem;
+        max-width: 100%;
+        overflow-x: scroll;
+    `}
+
+    ${media.lessThan("small")`
+    `}
 `
 
 export const NavList = styled.ul`
     display: flex;
     gap: 35px;
+
+    ${media.lessThan("small")`
+        justify-content: center;
+        text-align: center;
+    `}
 `
 
 export const NavListItem = styled.li`
@@ -55,6 +77,10 @@ export const NavListItem = styled.li`
             color: var(--red-primary);
         }
     }
+
+    ${media.lessThan("medium")`
+        flex: 1;
+    `}
 `
 
 export const ContactBtn = styled.a`

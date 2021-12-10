@@ -58,13 +58,35 @@ function Footer() {
                             </Link>
                         </li>
                     </ul>
-                    <p>R. Florianópolis, 252 - Jardim Leda (Fazendinha), Santana de Parnaíba - SP, 06529-302</p>
+                    <p><strong>Matriz:</strong> R. Florianópolis, 252 - Jardim Leda (Fazendinha), Santana de Parnaíba - SP, 06529-302</p>
                 </S.FooterContact>
                 <S.FooterCopy>
                     <p>© {actualYear} Alfa Alumínio. Todos os direitos reservados. Desenvolvido por <span><a href="https://conversamarketing.com.br" target="__blank" rel="noopener noreferrer">Conversa Marketing</a>.</span></p>
                 </S.FooterCopy>
             </S.FooterContainer>
-
+            <S.FiliaisWrapper>
+                <S.FiliaisHeading>
+                    <h4>Filiais</h4>
+                </S.FiliaisHeading>
+                <S.FiliaisContainer>
+                    <S.FiliaisItems>
+                        <h4>Alfa Alumínio - Contagem - MG</h4>
+                        <a href="tel:553133625313">Telefone: (31) 3362-5313</a>
+                    </S.FiliaisItems>
+                    <S.FiliaisItems>
+                        <h4>Alfa Alumínio - Joinville - SC</h4>
+                        <a href="tel:554734176464">Telefone: (47) 3417-6464</a>
+                    </S.FiliaisItems>
+                    <S.FiliaisItems>
+                        <h4>Alfa Alumínio - Caxias do Sul - RS</h4>
+                        <a href="tel:555432110811">Telefone: (54) 3211-0811</a>
+                    </S.FiliaisItems>
+                    <S.FiliaisItems>
+                        <h4>Alfa Alumínio - Porto Alegre - RS</h4>
+                        <a href="tel:555130837090">Telefone: (51) 3083-7090</a>
+                    </S.FiliaisItems>
+                </S.FiliaisContainer>
+            </S.FiliaisWrapper>
         </S.FooterWrapper>
     )
 }

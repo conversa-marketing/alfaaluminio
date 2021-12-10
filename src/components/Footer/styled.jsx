@@ -5,7 +5,13 @@ export const FooterWrapper = styled.footer`
     background-color: var(--blue-primary);
     padding: 5vh 0 0 0;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+
+    ${media.lessThan("small")`
+        padding: 5vh 20px;
+    `}
 `
 
 export const FooterContainer = styled.div`
@@ -122,5 +128,63 @@ export const FooterCopy = styled.div`
 
     p > span > a:hover {
         color: var(--red-primary);
+    }
+`
+
+export const FiliaisWrapper = styled.div`
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 30px;
+
+    ${media.lessThan("large")`
+        display: flex;
+        flex-direction: column;
+        max-width: 900px;
+        justify-content: center;
+        align-items: center;
+    `}
+`
+
+export const FiliaisHeading = styled.div`
+
+    h4 {
+        font-size: .9rem;
+        font-weight: 500;
+        margin-bottom: 5px;
+        color: var(--white);
+    }
+`
+
+export const FiliaisContainer = styled.div`
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+
+    ${media.lessThan("small")`
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    `}
+`
+
+export const FiliaisItems = styled.div`
+
+
+    h4 {
+        color: var(--white);
+        font-size: .9rem;
+        font-weight: 500;
+    }
+
+    a {
+        color: var(--white);
+        font-size: .8rem;
+        font-weight: 500;
+        padding: 5px;
+        background-color: var(--blue-primary-hover);
+        border-radius: 5px;
+        margin-top: 5px;
+        display: inline-block;
     }
 `

@@ -5,7 +5,7 @@ const Links = [
     },
 
     {
-        label: 'A Empresa',
+        label: 'Empresa',
         url: '/empresa',
     },
 

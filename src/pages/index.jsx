@@ -17,7 +17,6 @@ export default function Home() {
       <HeroSection />
       <ProductSlider />
       <DownloadSection />
-      <Clients />
       <AboutAlfa />
       <ContactSection />
     </div>
