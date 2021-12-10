@@ -1,4 +1,3 @@
-import React from 'react'
 import Carousel from 'react-multi-carousel'
 import 'react-multi-carousel/lib/styles.css'
 import Link from 'next/link'
@@ -16,12 +15,12 @@ const responsive = {
     },
     desktop: {
         breakpoint: { max: 1024, min: 768 },
-        items: 1,
+        items: 2,
         partialVisibilityGutter: 30,
     },
     tablet: {
         breakpoint: { max: 768, min: 640 },
-        items: 1,
+        items: 2,
         partialVisibilityGutter: 30,
 
     },

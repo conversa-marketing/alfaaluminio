@@ -1,6 +1,5 @@
-import React from 'react'
-import Carousel from 'react-multi-carousel';
-import 'react-multi-carousel/lib/styles.css';
+import Carousel from 'react-multi-carousel'
+import 'react-multi-carousel/lib/styles.css'
 import * as S from './styled'
 import Image from 'next/image'
 import HeroImage from '../../assets/img/hero-uncompressed.jpg'

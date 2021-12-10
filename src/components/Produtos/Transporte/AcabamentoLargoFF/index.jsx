@@ -2,6 +2,7 @@ import React from 'react'
 import * as S from '../../styled'
 import Image from 'next/image'
 import ImgAcabamentoLargo from '../../../../assets/img/acabamento-largo.jpg'
+import Link from 'next/link'
 
 
 function ALFF() {
@@ -21,6 +22,9 @@ function ALFF() {
                 </S.ProductImageWrapper>
                 <div>
                     <h1>Acabamento Largo de Piso de Furão Frigorífico</h1>
+                    <Link href="/contato" passHref>
+                        <S.DescriptionBtn>Saiba mais</S.DescriptionBtn>
+                    </Link>
                 </div>
             </S.ProductHeader>
             <div>

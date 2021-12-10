@@ -2,6 +2,7 @@ import React from 'react';
 import * as S from '../../styled'
 import Image from 'next/image'
 import ImgAcabamentoLateral from '../../../../assets/img/acabamento-lateral-opcoes.jpg'
+import Link from 'next/link'
 
 
 function ALPFF() {
@@ -21,6 +22,9 @@ function ALPFF() {
                 </S.ProductImageWrapper>
                 <div>
                     <h1>Acabamento Lateral de Piso de Furgão Frigorífico (2 opções)</h1>
+                    <Link href="/contato" passHref>
+                        <S.DescriptionBtn>Saiba mais</S.DescriptionBtn>
+                    </Link>
                 </div>
             </S.ProductHeader>
             <div>

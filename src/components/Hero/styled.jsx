@@ -22,11 +22,10 @@ export const CarouselWrapper = styled.div`
     ${media.lessThan("medium")`
         max-width: 500px;
         padding: 10vh 0;
-        display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;
-        padding: 20px;
+        padding: 50px 20px 20px;
     `}
 
     h1 {

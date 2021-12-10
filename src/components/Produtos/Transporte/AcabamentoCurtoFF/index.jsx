@@ -2,6 +2,7 @@ import React from 'react'
 import * as S from '../../styled'
 import Image from 'next/image'
 import ImgAcabamentoCurto from '../../../../assets/img/acabamento-curto.jpg'
+import Link from 'next/link'
 
 
 function ACFF() {
@@ -21,6 +22,9 @@ function ACFF() {
                 </S.ProductImageWrapper>
                 <div>
                     <h1>Acabamento Curto de Piso de Furgão Frigorífico N-3846</h1>
+                    <Link href="/contato" passHref>
+                        <S.DescriptionBtn>Saiba mais</S.DescriptionBtn>
+                    </Link>
                 </div>
             </S.ProductHeader>
             <div>

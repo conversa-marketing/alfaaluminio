@@ -2,6 +2,7 @@ import React from 'react';
 import * as S from '../../styled'
 import Image from 'next/image'
 import ImgPerfil from '../../../../assets/img/perfil-borda-fechada.jpg'
+import Link from 'next/link'
 
 
 function PBF() {
@@ -21,6 +22,9 @@ function PBF() {
                 </S.ProductImageWrapper>
                 <div>
                     <h1>Perfil Borda Fechada</h1>
+                    <Link href="/contato" passHref>
+                        <S.DescriptionBtn>Saiba mais</S.DescriptionBtn>
+                    </Link>
                 </div>
             </S.ProductHeader>
         </S.MainWrapper >

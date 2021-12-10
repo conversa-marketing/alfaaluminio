@@ -2,6 +2,7 @@ import React from 'react';
 import * as S from '../../styled'
 import Image from 'next/image'
 import ImgLongarinaInferior from '../../../../assets/img/longarina-inferior.jpg'
+import Link from 'next/link'
 
 
 function LI() {
@@ -21,6 +22,9 @@ function LI() {
                 </S.ProductImageWrapper>
                 <div>
                     <h1>Longarina Inferior (Barranqueira)</h1>
+                    <Link href="/contato" passHref>
+                        <S.DescriptionBtn>Saiba mais</S.DescriptionBtn>
+                    </Link>
                 </div>
             </S.ProductHeader>
             <div>

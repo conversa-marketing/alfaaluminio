@@ -2,6 +2,7 @@ import React from 'react';
 import * as S from '../../styled'
 import Image from 'next/image'
 import ImgMataJunta from '../../../../assets/img/mata-junta.jpg'
+import Link from 'next/link'
 
 
 function MJAPL() {
@@ -21,6 +22,9 @@ function MJAPL() {
                 </S.ProductImageWrapper>
                 <div>
                     <h1>Mata Junta e Acabamento Porta Lateral</h1>
+                    <Link href="/contato" passHref>
+                        <S.DescriptionBtn>Saiba mais</S.DescriptionBtn>
+                    </Link>
                 </div>
             </S.ProductHeader>
             <div>

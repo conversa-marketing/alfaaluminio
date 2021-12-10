@@ -2,6 +2,7 @@ import React from 'react';
 import * as S from '../../styled'
 import Image from 'next/image'
 import PisoFurgaoFrigorifico from '../../../../assets/img/piso-furgao.jpg'
+import Link from 'next/link'
 
 
 function PFF() {
@@ -21,6 +22,9 @@ function PFF() {
                 </S.ProductImageWrapper>
                 <div>
                     <h1>Piso de Furgão Frigorífico</h1>
+                    <Link href="/contato" passHref>
+                        <S.DescriptionBtn>Saiba mais</S.DescriptionBtn>
+                    </Link>
                 </div>
             </S.ProductHeader>
             <div>

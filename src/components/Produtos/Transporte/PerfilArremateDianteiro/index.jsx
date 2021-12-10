@@ -2,6 +2,7 @@ import React from 'react';
 import * as S from '../../styled'
 import Image from 'next/image'
 import ArremateDianteiro from '../../../../assets/img/perfil-arremate-dianteiro.jpg'
+import Link from 'next/link'
 
 
 function PAT() {
@@ -21,6 +22,9 @@ function PAT() {
                 </S.ProductImageWrapper>
                 <div>
                     <h1>Perfil Arremate Dianteiro</h1>
+                    <Link href="/contato" passHref>
+                        <S.DescriptionBtn>Saiba mais</S.DescriptionBtn>
+                    </Link>
                 </div>
             </S.ProductHeader>
             <div>
