@@ -13,6 +13,7 @@ export const CarouselWrapper = styled.div`
     width: 100%;
     max-width: 1200px;
     padding: 20vh 0;
+    min-height: 400px;
 
     ${media.lessThan("large")`
         max-width: 900px;
