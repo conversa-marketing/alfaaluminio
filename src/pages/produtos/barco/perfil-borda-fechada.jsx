@@ -1,6 +1,6 @@
 import React from 'react';
 import { NextSeo } from 'next-seo';
-import PBF from '../../../components/Produtos/Borda/BordaFechada'
+import PBF from '../../../components/Produtos/Barco/BordaFechada'
 
 export default function PagBordaFechada() {
 

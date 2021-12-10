@@ -12,7 +12,7 @@ const barcos = [
     },
 
     {
-        title: 'PErfil Borda Fechada',
+        title: 'Perfil Borda Fechada',
         image: BordaFechada,
         url: '/produtos/barco/perfil-borda-fechada'
     },
