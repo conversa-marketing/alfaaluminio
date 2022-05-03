@@ -58,11 +58,8 @@ function Footer() {
                             </Link>
                         </li>
                     </ul>
-                    <p><strong>Matriz:</strong> R. Florianópolis, 252 - Jardim Leda (Fazendinha), Santana de Parnaíba - SP, 06529-302</p>
+                    <p><strong>Matriz:</strong> R. Florianópolis, 252 - Jardim Leda (Fazendinha), Santana de Parnaíba - SP, 06529-302</p><p><b>Telefone:</b> (11) 4705-6999</p>
                 </S.FooterContact>
-                <S.FooterCopy>
-                    <p>© {actualYear} Alfa Alumínio. Todos os direitos reservados. Desenvolvido por <span><a href="https://conversamarketing.com.br" target="__blank" rel="noopener noreferrer">Conversa Marketing</a>.</span></p>
-                </S.FooterCopy>
             </S.FooterContainer>
             <S.FiliaisWrapper>
                 <S.FiliaisHeading>
@@ -87,6 +84,9 @@ function Footer() {
                     </S.FiliaisItems>
                 </S.FiliaisContainer>
             </S.FiliaisWrapper>
+            <S.FooterCopy>
+                    <p>© {actualYear} Alfa Alumínio. Todos os direitos reservados. Desenvolvido por <span><a href="https://conversamarketing.com.br" target="__blank" rel="noopener noreferrer">Conversa Marketing</a>.</span></p>
+                </S.FooterCopy>
         </S.FooterWrapper>
     )
 }

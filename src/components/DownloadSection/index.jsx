@@ -20,8 +20,8 @@ function DownloadSection() {
             <S.DownloadWrapper>
                 <h2>Faça o download do nosso <span>catálogo</span></h2>
                 <p>Cadastre-se a seguir faça o download do nosso catálogo completo</p>
-                <form action="https://formsubmit.co/gabrielsyze@gmail.com" method="POST">
-                    <input type="hidden" name="_next" value="http://localhost:3000/catalogo-perfil.pdf" />
+                <form action="https://formsubmit.co/vendas@alfaaluminio.com.br" method="POST">
+                    <input type="hidden" name="_next" value="alfaaluminio.netlify.app/catalogo-perfil.pdf" />
                     <input type="hidden" name="_subject" value="Alguém se Cadastrou Pelo Catálogo!" />
                     <input type="text" name="_honey" />
                     <input type="hidden" name="_template" value="table" />
