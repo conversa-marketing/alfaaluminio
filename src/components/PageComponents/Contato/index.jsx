@@ -17,35 +17,35 @@ function ContactPage() {
                     <S.FiliaisItem>
                         <h3>Alfa Alumínio - Matriz SP</h3>
                         <p>Rua Florianópolis, 252, Bairro: Jd. Leda (Fazendinha) Cidade: Santana da Parnaíba - SP - CEP: 06529-302</p>
-                        <a href="tel:1141565577"><span>Fone:</span> (11) 4705-6999</a>
+                        <a href="tel:+551147056999"><span>Fone:</span> (11) 4705-6999</a>
                     </S.FiliaisItem>
 
                     <S.FiliaisItem>
                         <h3>Alfa Alumínio - Contagem - MG</h3>
                         <p>Rua padre Joaquim de souza silva, 101 – letra A – Bairro: Industrial
                             Cidade: Contagem – MG – CEP: 32220-330</p>
-                        <a href="tel:553133625313"><span>Fone:</span> (31) 3362-5313</a>
+                        <a href="tel:+553133625313"><span>Fone:</span> (31) 3362-5313</a>
                     </S.FiliaisItem>
 
                     <S.FiliaisItem>
                         <h3>Alfa Alumínio - Joinville - SC</h3>
                         <p>Rua dos suíços, 4466 – galpão A – bairro: Vila Nova
                             Cidade: Joinville – SC – CEP: 89237-720</p>
-                        <a href="tel:554734176464"><span>Fone:</span> (47) 3417-6464</a>
+                        <a href="tel:+554734176464"><span>Fone:</span> (47) 3417-6464</a>
                     </S.FiliaisItem>
 
                     <S.FiliaisItem>
                         <h3>Alfa Alumínio - Caxias do Sul - RS</h3>
                         <p>Av. Ruben Bento Alves, 5546 – bairro: Marechal Floriano.
                             Cidade: Caxias do Sul – RS – CEP: 95013-004</p>
-                        <a href="tel:555432110811"><span>Fone:</span> (54) 3211-0811</a>
+                        <a href="tel:+555432110811"><span>Fone:</span> (54) 3211-0811</a>
                     </S.FiliaisItem>
 
                     <S.FiliaisItem>
                         <h3>Alfa Alumínio - Porto Alegre - RS</h3>
                         <p>Travessa Venezuela, 150 – Depósito 10 – bairro: Navegantes.
                             Cidade: Porto Alegre – RS – CEP: 90240-220</p>
-                        <a href="tel:555130837090"><span>Fone:</span> (51) 3083-7090</a>
+                        <a href="tel:+555130837090"><span>Fone:</span> (51) 3083-7090</a>
                     </S.FiliaisItem>
                 </S.FiliaisWrapper>
                 <S.ContactHeading>
