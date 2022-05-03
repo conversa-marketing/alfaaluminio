@@ -35,8 +35,8 @@ const Header = ({ setIsMenuOpen, isMenuOpen }) => {
                         </S.ContactBtn>
                     </Link>
                     <div>
-                        <Link href="tel:+551141565577" passHref>
-                            <S.ContactNumber>(11) 4156-5577</S.ContactNumber>
+                        <Link href="tel:+55147056999" passHref>
+                            <S.ContactNumber>(11) 4705-6999</S.ContactNumber>
                         </Link>
                     </div>
                 </S.LinksNav>

@@ -63,7 +63,7 @@ function ContactPage() {
                 <h1>Entre em contato</h1>
                 <p>Precisa de um orçamento ou tem dúvidas sobre algum de nossos produtos? Preencha o formulário a baixo!</p>
                 <S.FormInfo>
-                    <form action="https://formsubmit.co/gabrielsyze@gmail.com" method="POST">
+                    <form action="https://formsubmit.co/vendas@alfaaluminio.com.br" method="POST">
                         <input type="hidden" name="_next" value="http://localhost:3000/" />
                         <input type="hidden" name="_subject" value="Novo Contato do Site!" />
                         <input type="text" name="_honey" />
