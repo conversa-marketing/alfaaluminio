@@ -17,7 +17,7 @@ function ContactPage() {
                     <S.FiliaisItem>
                         <h3>Alfa Alumínio - Matriz SP</h3>
                         <p>Rua Florianópolis, 252, Bairro: Jd. Leda (Fazendinha) Cidade: Santana da Parnaíba - SP - CEP: 06529-302</p>
-                        <a href="tel:1141565577"><span>Fone:</span> (11) 4156-5577</a>
+                        <a href="tel:1141565577"><span>Fone:</span> (11) 4705-6999</a>
                     </S.FiliaisItem>
 
                     <S.FiliaisItem>
@@ -51,7 +51,7 @@ function ContactPage() {
                 <S.ContactHeading>
                     <S.ContactInfo>
                         <h3>Email</h3>
-                        <p>contato@alfaaluminio.com.br</p>
+                        <p>vendas@alfaaluminio.com.br</p>
                     </S.ContactInfo>
                     <S.ContactInfo>
                         <h3>Horários</h3>
